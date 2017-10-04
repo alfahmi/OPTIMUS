@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OPTIMUS</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+	<string name="alfdev__choose_office">PILIH KANTOR</string>
+    <string name="alfdev__choose_cvs">PILIH CANVASER</string>
+	<string name="alfdev__choose_day_visit">HARI KUNJUNGAN</string>
+    <string name="alfdev__choose_outlet">PILIH OUTLET</string>
+	<string name="alfdev__choose_form_survey">FORM MARKET SURVEY</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alfdev__height_spinner">45dp</dimen>
+	<dimen name="alfdev__height_edittext">50dp</dimen>
+	<dimen name="alfdev__edittext_margintop">5dp</dimen>
+</resources>
+

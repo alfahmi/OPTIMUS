@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal|top"
+		android:orientation="vertical"
+		android:padding="20dp">
+	<ImageView
+		android:id="@+id/alfdev__image_logo"
+		android:layout_width="wrap_content"
+		android:layout_height="140dp"
+		android:src="@drawable/alfdev__optimus"/>
+    <Spinner
+		android:id="@+id/alfdev__spinner_office_list"
+		style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+		android:prompt="@string/alfdev__choose_office"
+		android:spinnerMode="dialog"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:entries="@array/alfdev__office_list"
+		android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
+
+	<Spinner
+		android:id="@+id/alfdev__spinner_cvs_list"
+		style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+		android:prompt="@string/alfdev__choose_cvs"
+		android:spinnerMode="dialog"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+	<com.marlonmafra.android.widget.EditTextPassword
+		android:id="@+id/alfdev__edittext_password"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:hint="Password"
+		android:inputType="textPassword"
+		android:textColorHint="@android:color/darker_gray"
+		app:iconPosition="right"
+		app:hidePasswordIcon="@drawable/ic_eye"
+		app:showPasswordIcon="@drawable/ic_eye_off">
+			<requestFocus />
+	</com.marlonmafra.android.widget.EditTextPassword>
+	</android.support.design.widget.TextInputLayout>
+	
+	<Button
+		style="@style/AppTheme.Button"
+		android:layout_marginTop="20dp"
+		android:id="@+id/alfdev__button_login"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:text="LOGIN" />
+	
+</LinearLayout>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="13dp"
+		android:text="This App Created By AlfDev"
+		android:layout_marginBottom="4dp"
+		android:gravity="center_horizontal|bottom|center"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_alignParentBottom="true"/>
+</RelativeLayout>

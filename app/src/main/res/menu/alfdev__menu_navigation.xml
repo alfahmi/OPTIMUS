@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:title="Theme">
+		<menu>
+		<item
+            android:id="@+id/alfdev__menu_lighttheme"
+            android:title="Light"
+            android:icon="@drawable/ic_action_light"/>
+		<item
+            android:id="@+id/alfdev__menu_darktheme"
+            android:title="Dark"
+            android:icon="@drawable/ic_action_dark"/>
+		</menu>
+	</item>
+	<item
+		android:title="Lainya">
+		<menu>
+		<item
+			android:id="@+id/alfdev__menu_logout"
+			android:title="Logout"
+			android:icon="@drawable/ic_logout"/>
+			
+		<item
+            android:id="@+id/alfdev__menu_about"
+            android:title="About"
+            android:icon="@drawable/ic_action_about"/>
+		<item
+            android:id="@+id/alfdev__menu_exit"
+            android:title="Exit"
+            android:icon="@drawable/ic_action_exit"/>
+		</menu>
+	</item>
+</menu>

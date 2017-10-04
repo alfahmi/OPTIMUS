@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+	<EditText
+		android:id="@+id/alfdev__edittext_view_office"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="OFFICE" />
+	</android.support.design.widget.TextInputLayout>
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+	<EditText
+		android:id="@+id/alfdev__edittext_view_canvasser"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="CANVASSER" />
+	</android.support.design.widget.TextInputLayout>
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+	<EditText
+		android:id="@+id/alfdev__edittext_view_day"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="DAY" />
+	</android.support.design.widget.TextInputLayout>
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+	<EditText
+		android:id="@+id/alfdev__edittext_view_outlet"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="OUTLET" />
+	</android.support.design.widget.TextInputLayout>
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+	<EditText
+		android:id="@+id/alfdev__edittext_view_formsurver"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="FORM SURVEY" />
+	</android.support.design.widget.TextInputLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/alfdev__height_edittext"
+		android:orientation="horizontal"
+		android:layout_marginTop="@dimen/alfdev__edittext_margintop">
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+      	 	<EditText
+   	         	android:id="@+id/alfdev__edittext_view_telkomsel"
+        	    android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+				android:inputType="number"
+            	android:hint="TELKOMSEL" />
+
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:id="@+id/alfdev__edittext_view_indosat"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:hint="INDOSAT" />
+
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/alfdev__height_edittext"
+		android:orientation="horizontal"
+		android:layout_marginTop="@dimen/alfdev__edittext_margintop">
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+      	 	<EditText
+   	         	android:id="@+id/alfdev__edittext_view_axis"
+        	    android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+				android:inputType="number"
+            	android:hint="AXIS" />
+
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:id="@+id/alfdev__edittext_view_xl"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:hint="XL" />
+
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/alfdev__height_edittext"
+		android:orientation="horizontal"
+		android:layout_marginTop="@dimen/alfdev__edittext_margintop">
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+      	 	<EditText
+   	         	android:id="@+id/alfdev__edittext_view_three"
+        	    android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+				android:inputType="number"
+            	android:hint="THREE (3)" />
+
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:id="@+id/alfdev__edittext_view_other"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:hint="OTHER" />
+
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_update"
+			style="@style/AppTheme.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UPDATE" />
+
+        <Button
+            android:id="@+id/btn_delete"
+			style="@style/AppTheme.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="HAPUS" />
+    </LinearLayout>
+
+</LinearLayout>

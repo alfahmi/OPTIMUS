@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alfdev__office_list">
+		<item>TDC CIAWIGEBANG</item>
+		<item>TDC CIKIJING</item>
+		<item>TDC KUNINGAN</item>
+		<item>TDC MAJALENGKA</item>
+	</string-array>
+	<string-array name="alfdev__outlet_list">
+		<item>MERPATI ACC</item>
+		<item>ANS CELL</item>
+		<item>CAHAYA ACC</item>
+	</string-array>
+	<string-array name="alfdev__office_awg_cvs">
+		<item>ADE D</item>
+		<item>ARDIAN</item>
+		<item>AGUNG S</item>
+		<item>M IRVAN</item>
+		<item>DEVI N</item>
+	</string-array>
+	<string-array name="alfdev__office_ckj_cvs">
+		<item>ANJAS ASMARA</item>
+		<item>ANDRI</item>
+		<item>DUDU A</item>
+		<item>DEDI KOSWARA</item>
+		<item>DUDU A</item>
+	</string-array>
+	<string-array name="alfdev__office_kng_cvs">
+		<item>AANG HASAN</item>
+		<item>ARIEF F</item>
+		<item>ASEP A</item>
+		<item>DEDI SODIKIN</item>
+		<item>DUDI RUDIYANTO</item>
+		<item>FERRY LIDIANTO</item>
+		<item>IMAN AGISMAN</item>
+		<item>NURKHOLIK</item>
+		<item>ZANURI</item>
+	</string-array>
+	<string-array name="alfdev__office_mjk_cvs">
+		<item>DEDE R</item>
+		<item>ENJANG B</item>
+		<item>JAMAL ABDUL</item>
+		<item>JEMMY K</item>
+		<item>MAMAT RAHMAT</item>
+		<item>NONO W</item>
+		<item>OKA A</item>
+		<item>WAWAN HERMAWAN</item>
+		<item>YAYAN H</item>
+		<item>YUDI H</item>
+	</string-array>
+	<string-array name="alfdev__day_visit">
+		<item>SENIN</item>
+		<item>SELASA</item>
+		<item>RABU</item>
+		<item>KAMIS</item>
+		<item>JUMAT</item>
+		<item>SABTU</item>
+	</string-array>
+	<string-array name="alfdev__day_form_survey">
+		<item>SALES SHARE</item>
+		<item>RECHARGE SHARE (RP)</item>
+		<item>MARKET SHARE</item>
+		<item>SALES SHARE BROADBAND</item>
+		<item>RECHARGE SHARE BROADBAND</item>
+		<item>MARKET SHARE BROADBAND</item>
+	</string-array>
+</resources>

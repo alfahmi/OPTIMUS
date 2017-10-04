@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:layout_marginTop="?attr/actionBarSize"
+	android:padding="10dp"
+	android:focusableInTouchMode="true"
+	tools:showIn="@layout/alfdev__app_main">
+	
+	<Spinner
+		android:id="@+id/alfdev__spinner_day_visit"
+		style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+		android:prompt="@string/alfdev__choose_day_visit"
+		android:spinnerMode="dialog"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:entries="@array/alfdev__day_visit"
+		android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
+	
+	<Spinner
+		android:id="@+id/alfdev__spinner_outlet"
+		style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+		android:prompt="@string/alfdev__choose_outlet"
+		android:spinnerMode="dialog"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:entries="@array/alfdev__outlet_list"
+		android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
+	
+	<Spinner
+		android:id="@+id/alfdev__spinner_form_survey"
+		style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+		android:prompt="@string/alfdev__choose_form_survey"
+		android:spinnerMode="dialog"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:entries="@array/alfdev__day_form_survey"
+		android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/alfdev__height_edittext"
+		android:orientation="horizontal"
+		android:layout_marginTop="@dimen/alfdev__edittext_margintop">
+		
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+      	 	<EditText
+   	         	android:id="@+id/alfdev__edittext_telkomsel"
+        	    android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+				android:inputType="number"
+            	android:hint="TELKOMSEL" />
+
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:id="@+id/alfdev__edittext_indosat"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:hint="INDOSAT" />
+
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/alfdev__height_edittext"
+		android:orientation="horizontal"
+		android:layout_marginTop="@dimen/alfdev__edittext_margintop">
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+      	 	<EditText
+   	         	android:id="@+id/alfdev__edittext_axis"
+        	    android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+				android:inputType="number"
+            	android:hint="AXIS" />
+
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:id="@+id/alfdev__edittext_xl"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:hint="XL" />
+
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/alfdev__height_edittext"
+		android:orientation="horizontal"
+		android:layout_marginTop="@dimen/alfdev__edittext_margintop">
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+      	 	<EditText
+   	         	android:id="@+id/alfdev__edittext_three"
+        	    android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+				android:inputType="number"
+            	android:hint="THREE (3)" />
+
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout
+			android:layout_weight="1.0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:id="@+id/alfdev__edittext_other"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:hint="OTHER" />
+
+		</android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+	<Button
+		style="@style/AppTheme.Button"
+		android:id="@+id/alfdev__button_save"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="       SIMPAN       " />
+</LinearLayout>

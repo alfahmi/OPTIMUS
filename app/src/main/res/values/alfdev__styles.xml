@@ -1,0 +1,37 @@
+<resources>
+	<style name="AppTheme" parent="MainTheme"/>
+    <style name="MainTheme" parent="Theme.AppCompat.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	<style name="AppThemeLight" parent="MainThemeLight"/>
+	<style name="MainThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+	</style>
+	<style name="AppTheme2" parent="MainTheme2"/>
+    <style name="MainTheme2" parent="Theme.AppCompat">
+		<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	<style name="AppThemeLight2" parent="MainThemeLight2"/>
+	<style name="MainThemeLight2" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+	</style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+		<item name="elevation">3dp</item>
+	</style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+	<style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+		<item name="colorButtonNormal">@color/colorAccent</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+</resources>
+
+
+
