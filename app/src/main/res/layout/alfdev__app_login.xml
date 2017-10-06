@@ -44,8 +44,8 @@
 		android:inputType="textPassword"
 		android:textColorHint="@android:color/darker_gray"
 		app:iconPosition="right"
-		app:hidePasswordIcon="@drawable/ic_eye"
-		app:showPasswordIcon="@drawable/ic_eye_off">
+		app:hidePasswordIcon="@drawable/ic_eye_off"
+		app:showPasswordIcon="@drawable/ic_eye">
 			<requestFocus />
 	</com.marlonmafra.android.widget.EditTextPassword>
 	</android.support.design.widget.TextInputLayout>

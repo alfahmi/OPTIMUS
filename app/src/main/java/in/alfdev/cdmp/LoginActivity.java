@@ -14,6 +14,7 @@ public class LoginActivity extends AppCompatActivity
 	EditTextPassword EdtPassword;
 	Button BtnLogin;
 	ImageView ImgCdmpLogo;
+	String email = "";
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState)
@@ -48,29 +49,33 @@ public class LoginActivity extends AppCompatActivity
 							LoginActivity.this, R.array.alfdev__office_awg_cvs, android.R.layout.simple_spinner_item);
 						adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 						SpnChooseCanvaser.setAdapter(adapter);
+						email = "cdmp.awg@gmail.com";
 					} else if (test.equals("TDC CIKIJING")) {
 						final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
 							LoginActivity.this, R.array.alfdev__office_ckj_cvs, android.R.layout.simple_spinner_item);
 						adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 						SpnChooseCanvaser.setAdapter(adapter);
+						email = "cdmp.ckj@gmail.com";
 					} else if (test.equals("TDC KUNINGAN"))
 					{
 						final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
 							LoginActivity.this, R.array.alfdev__office_kng_cvs, android.R.layout.simple_spinner_item);
 						adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 						SpnChooseCanvaser.setAdapter(adapter);
+						email = "cdmp.kng@gmail.com";
 					} else if (test.equals("TDC MAJALENGKA")) {
 						final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
 							LoginActivity.this, R.array.alfdev__office_mjk_cvs, android.R.layout.simple_spinner_item);
 						adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 						SpnChooseCanvaser.setAdapter(adapter);
+						email = "cdmp.mjk@gmail.com";
 					}
 				}
 
 				@Override
-				public void onNothingSelected(AdapterView<?> arg0) {
+			public void onNothingSelected(AdapterView<?> arg0) {
 
-				}
+			}
 			});
 			
 		// Button
@@ -87,6 +92,7 @@ public class LoginActivity extends AppCompatActivity
 					editor.putString("office", SpinnerOffice);
 					editor.putString("canvasser",SpinnerCanvasser);
 					editor.putString("password", StringPassword);
+					editor.putString("email", email);
 					editor.commit();
 					Intent i = new Intent(LoginActivity.this, MainActivity.class);
 					startActivity(i);

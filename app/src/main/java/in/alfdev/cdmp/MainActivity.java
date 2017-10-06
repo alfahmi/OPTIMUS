@@ -9,7 +9,11 @@ import android.support.v7.widget.*;
 import android.view.*;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.*;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Spinner;
+import android.widget.EditText;
+import android.widget.ArrayAdapter;
 import android.support.v7.widget.Toolbar;
 import android.database.sqlite.*;
 import java.io.*;
@@ -35,13 +39,191 @@ public class MainActivity extends AppCompatActivity {
 		final String office = sharedPreferences.getString("office","");
 		final String canvasser = sharedPreferences.getString("canvasser","");
 		final String password = sharedPreferences.getString("password","");
+		// FindViewById
+		chooseDay = (Spinner) findViewById(R.id.alfdev__spinner_day_visit);
+		chooseFormSurvey = (Spinner) findViewById(R.id.alfdev__spinner_form_survey);
+		chooseOutlet = (Spinner) findViewById(R.id.alfdev__spinner_outlet);
+		
 		if (password.equals("agrabudi555")) {
-			// Null
+			SetupOutlet();
+			
 		} else {
 			Intent i = new Intent(MainActivity.this, LoginActivity.class);
 			startActivity(i);
 			finish();
 		}
+		
+	
+	
+		if (canvasser.equals("AGUNG S"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_awg_agung_s, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("ARDIAN")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_awg_ardian_s, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("DEDE I")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_awg_dede_i, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("M IRVAN")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_awg_m_irvan, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("DEVI N")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_awg_devi_n, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+
+			// KUNINGAN SETUP
+		} else if (canvasser.equals("AANG HASAN")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_kng_aang_hasan, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("ARIEF F")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_kng_arief_f, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("ASEP A")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_kng_asep_a, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("DENI SODIKIN"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_kng_deni_sodikin, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("DUDI RUDIYANTO")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_kng_dudi_rudiyanto, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("FERRY LIDIANTO"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_kng_ferry_lidianto, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("IMAN AGISMAN")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_kng_iman_agisman, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("NURKHOLIK"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_kng_nurkholik, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("ZANURI")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_kng_zanuri, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+
+			// CIKIJING SETUP
+		} else if (canvasser.equals("ANJAS ASMARA"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_ckj_anjas_asmara, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("ANDRI")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_ckj_andri, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("DUDU A"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_ckj_dudu_a, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("DEDI KOSWARA")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_ckj_dedi_koswara, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("MOCH RIZAL"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_ckj_moch_rizal, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+
+			// MAJALENGA SETUP
+		} else if (canvasser.equals("DEDE R")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_dede_r, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("ENJANG B"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_enjang_b, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("JAMAL ABDUL")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_jamal_abdul, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("JEMMY K"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_jemmy_k, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("MAMAT RAHMAT")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_mamat_rahmat, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("NONO W"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_nono_w, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("OKA A")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_oka_a, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("WAWAN HERMAWAN"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_wawan_hermawan, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("YAYAN H")) {
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_yayan_h, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else if (canvasser.equals("YUDI H"))
+		{
+			final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				MainActivity.this, R.array.alfdev__outlet_mjk_yudi_h, android.R.layout.simple_spinner_item);
+			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			chooseOutlet.setAdapter(adapter);
+		} else {
+
+		} 
+
+		
+		
 		
 		// Toolbar
 		AlfDev_Toolbar = (Toolbar) findViewById(R.id.alfdev__toolbar);
@@ -57,10 +239,6 @@ public class MainActivity extends AppCompatActivity {
 		Snackbar snackbar = Snackbar.make(AlfDev_CoordinatorLayout,"SELAMAT DATANG "+canvasser,Snackbar.LENGTH_LONG);
 		snackbar.show();
 		
-		// FindViewById
-		chooseDay = (Spinner) findViewById(R.id.alfdev__spinner_day_visit);
-		chooseFormSurvey = (Spinner) findViewById(R.id.alfdev__spinner_form_survey);
-		chooseOutlet = (Spinner) findViewById(R.id.alfdev__spinner_outlet);
 		
 		TelkomselQty = (EditText) findViewById(R.id.alfdev__edittext_telkomsel);
 		IndosatQty = (EditText) findViewById(R.id.alfdev__edittext_indosat);
@@ -78,6 +256,9 @@ public class MainActivity extends AppCompatActivity {
 		
 		buttonSubmit.setOnClickListener(new OnClickListener() {
 			public void onClick (View v) {
+				
+			
+				
 				final String day = chooseDay.getSelectedItem().toString();
 				final String formsurvey = chooseFormSurvey.getSelectedItem().toString();
 				final String outlet = chooseOutlet.getSelectedItem().toString();
@@ -89,14 +270,19 @@ public class MainActivity extends AppCompatActivity {
 				final String three = ThreeQty.getText().toString();
 				final String other = OtherQty.getText().toString();
 				
-				dbManager.insert(office, canvasser, day, formsurvey, outlet, telkomsel, indosat, axis, xl, three, other);
+				if (telkomsel.isEmpty() && indosat.isEmpty() && axis.isEmpty() && xl.isEmpty() && three.isEmpty() && other.isEmpty()) {
+					Snackbar snackbar = Snackbar.make(AlfDev_CoordinatorLayout,"DATA KOSONG!",Snackbar.LENGTH_LONG);
+					snackbar.show();
+				} else {
 				
-				TelkomselQty.setText("");
-				IndosatQty.setText("");
-				AxisQty.setText("");
-				XlQty.setText("");
-				ThreeQty.setText("");
-				OtherQty.setText("");
+					dbManager.insert(office, canvasser, day, formsurvey, outlet, telkomsel, indosat, axis, xl, three, other);
+					TelkomselQty.setText("");
+					IndosatQty.setText("");
+					AxisQty.setText("");
+					XlQty.setText("");
+					ThreeQty.setText("");
+					OtherQty.setText("");
+				}
 			}
 		});
     }
@@ -123,22 +309,7 @@ public class MainActivity extends AppCompatActivity {
 							AlfDev_DrawerLayout.closeDrawers();
 							break;
 						case R.id.alfdev__menu_logout:
-							SharedPreferences sharedPreferences = getSharedPreferences("in.alfdev.cdmp_preferences",Context.MODE_PRIVATE);
-							SharedPreferences.Editor editor = sharedPreferences.edit();
-							
-							editor.putString("office", "");
-							editor.putString("canvasser","");
-							editor.putString("password", "");
-							editor.commit();
-							// Delete Database
-							String DB_NAME = "ALFDEV_INPUTDATA.DB";
-							String FILE_PATH = "/data/data/in.alfdev.cdmp/databases/";
-							SQLiteDatabase.deleteDatabase(new File(FILE_PATH+DB_NAME));
-							
-							Intent i = new Intent(MainActivity.this, LoginActivity.class);
-							startActivity(i);
-							finish();
-							
+							LogoutDialog();
 							AlfDev_DrawerLayout.closeDrawers();
 							break;
 						case R.id.alfdev__menu_about:
@@ -200,6 +371,8 @@ public class MainActivity extends AppCompatActivity {
 		return true;
 	}
 	
+	
+	// About Dialog
 	public void AboutDialog() {
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage("App OPTIMUS V1.0 dev by AlfDev")
@@ -223,5 +396,53 @@ public class MainActivity extends AppCompatActivity {
         this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         startActivity(new Intent(this, this.getClass()));
     }
+	
+	// Logout Dialog
+	public void LogoutDialog() {
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setMessage("Apakah anda yakin untuk Logout?")
+			.setTitle("Logout")
+			.setCancelable(false)
+			.setNegativeButton("Batal", new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog, int id) {
+					dialog.cancel();
+				}
+			})
+			.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog, int id) {
+					SharedPreferences sharedPreferences = getSharedPreferences("in.alfdev.cdmp_preferences",Context.MODE_PRIVATE);
+					SharedPreferences.Editor editor = sharedPreferences.edit();
+
+					editor.putString("office", "");
+					editor.putString("canvasser","");
+					editor.putString("password", "");
+					editor.putString("email","");
+					editor.commit();
+					// Delete Database
+					String DB_NAME = "ALFDEV_INPUTDATA.DB";
+					String FILE_PATH = "/data/data/in.alfdev.cdmp/databases/";
+					SQLiteDatabase.deleteDatabase(new File(FILE_PATH+DB_NAME));
+
+					Intent i = new Intent(MainActivity.this, LoginActivity.class);
+					startActivity(i);
+					finish();
+
+				}
+			});
+
+		AlertDialog alert = builder.create();
+		alert.show();
+
+	}
+	
+	public void SetupOutlet() {
+		//  Setup Outlet
+		// =======================================
+		// OUTLET SETUP
+		SharedPreferences sharedPreferences = getSharedPreferences("in.alfdev.cdmp_preferences",Context.MODE_PRIVATE);
+		final String canvasser = sharedPreferences.getString("canvasser","");
+		
+		// ========================================
+	}
 }
     

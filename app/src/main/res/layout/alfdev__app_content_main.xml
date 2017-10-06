@@ -13,7 +13,6 @@
 		android:id="@+id/alfdev__spinner_day_visit"
 		style="@style/Base.Widget.AppCompat.Spinner.Underlined"
 		android:prompt="@string/alfdev__choose_day_visit"
-		android:spinnerMode="dialog"
 		android:layout_width="fill_parent"
 		android:layout_height="60dp"
 		android:entries="@array/alfdev__day_visit"
@@ -26,7 +25,6 @@
 		android:spinnerMode="dialog"
 		android:layout_width="fill_parent"
 		android:layout_height="60dp"
-		android:entries="@array/alfdev__outlet_list"
 		android:textAppearance="?android:attr/textAppearanceMedium" ></Spinner>
 	
 	<Spinner

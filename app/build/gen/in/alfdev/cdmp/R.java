@@ -27,14 +27,50 @@ public final class R {
         public static final int design_snackbar_out=0x7f05000f;
     }
     public static final class array {
-        public static final int alfdev__day_form_survey=0x7f0d0007;
-        public static final int alfdev__day_visit=0x7f0d0006;
-        public static final int alfdev__office_awg_cvs=0x7f0d0002;
-        public static final int alfdev__office_ckj_cvs=0x7f0d0003;
-        public static final int alfdev__office_kng_cvs=0x7f0d0004;
+        public static final int alfdev__day_form_survey=0x7f0d0006;
+        public static final int alfdev__day_visit=0x7f0d0005;
+        public static final int alfdev__office_awg_cvs=0x7f0d0001;
+        public static final int alfdev__office_ckj_cvs=0x7f0d0002;
+        public static final int alfdev__office_kng_cvs=0x7f0d0003;
         public static final int alfdev__office_list=0x7f0d0000;
-        public static final int alfdev__office_mjk_cvs=0x7f0d0005;
-        public static final int alfdev__outlet_list=0x7f0d0001;
+        public static final int alfdev__office_mjk_cvs=0x7f0d0004;
+        /** - AWG OUTLET 
+         */
+        public static final int alfdev__outlet_awg_agung_s=0x7f0d0007;
+        public static final int alfdev__outlet_awg_ardian_s=0x7f0d0008;
+        public static final int alfdev__outlet_awg_dede_i=0x7f0d0009;
+        public static final int alfdev__outlet_awg_devi_n=0x7f0d000a;
+        public static final int alfdev__outlet_awg_m_irvan=0x7f0d000b;
+        /** - CKJ OUTLET 
+         */
+        public static final int alfdev__outlet_ckj_andri=0x7f0d000c;
+        public static final int alfdev__outlet_ckj_anjas_asmara=0x7f0d000d;
+        public static final int alfdev__outlet_ckj_dedi_koswara=0x7f0d000f;
+        public static final int alfdev__outlet_ckj_dudu_a=0x7f0d000e;
+        public static final int alfdev__outlet_ckj_moch_rizal=0x7f0d0010;
+        /** - KNG OUTLET 
+         */
+        public static final int alfdev__outlet_kng_aang_hasan=0x7f0d0011;
+        public static final int alfdev__outlet_kng_arief_f=0x7f0d0012;
+        public static final int alfdev__outlet_kng_asep_a=0x7f0d0013;
+        public static final int alfdev__outlet_kng_deni_sodikin=0x7f0d0014;
+        public static final int alfdev__outlet_kng_dudi_rudiyanto=0x7f0d0015;
+        public static final int alfdev__outlet_kng_ferry_lidianto=0x7f0d0016;
+        public static final int alfdev__outlet_kng_iman_agisman=0x7f0d0017;
+        public static final int alfdev__outlet_kng_nurkholik=0x7f0d0018;
+        public static final int alfdev__outlet_kng_zanuri=0x7f0d0019;
+        /** - MJK OUTLET 
+         */
+        public static final int alfdev__outlet_mjk_dede_r=0x7f0d001a;
+        public static final int alfdev__outlet_mjk_enjang_b=0x7f0d001b;
+        public static final int alfdev__outlet_mjk_jamal_abdul=0x7f0d001c;
+        public static final int alfdev__outlet_mjk_jemmy_k=0x7f0d001d;
+        public static final int alfdev__outlet_mjk_mamat_rahmat=0x7f0d001e;
+        public static final int alfdev__outlet_mjk_nono_w=0x7f0d001f;
+        public static final int alfdev__outlet_mjk_oka_a=0x7f0d0020;
+        public static final int alfdev__outlet_mjk_wawan_hermawan=0x7f0d0021;
+        public static final int alfdev__outlet_mjk_yayan_h=0x7f0d0022;
+        public static final int alfdev__outlet_mjk_yudi_h=0x7f0d0023;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -2318,14 +2354,15 @@ containing a value of this type.
         public static final int ic_action_dark=0x7f020053;
         public static final int ic_action_exit=0x7f020054;
         public static final int ic_action_light=0x7f020055;
-        public static final int ic_document=0x7f020056;
-        public static final int ic_eye=0x7f020057;
-        public static final int ic_eye_off=0x7f020058;
-        public static final int ic_hide_password=0x7f020059;
-        public static final int ic_logout=0x7f02005a;
-        public static final int ic_send=0x7f02005b;
-        public static final int ic_show_password=0x7f02005c;
-        public static final int notification_template_icon_bg=0x7f02005d;
+        public static final int ic_delete=0x7f020056;
+        public static final int ic_document=0x7f020057;
+        public static final int ic_eye=0x7f020058;
+        public static final int ic_eye_off=0x7f020059;
+        public static final int ic_hide_password=0x7f02005a;
+        public static final int ic_logout=0x7f02005b;
+        public static final int ic_send=0x7f02005c;
+        public static final int ic_show_password=0x7f02005d;
+        public static final int notification_template_icon_bg=0x7f02005e;
     }
     public static final class id {
         public static final int action0=0x7f0800a3;
@@ -2346,8 +2383,9 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f08003d;
         public static final int alertTitle=0x7f080049;
         public static final int alfdev__CoordinatorLayout=0x7f080079;
-        public static final int alfdev__action_convert_and_send=0x7f0800b1;
+        public static final int alfdev__action_convert_and_send=0x7f0800b2;
         public static final int alfdev__action_data_input=0x7f0800b0;
+        public static final int alfdev__action_delete_database=0x7f0800b1;
         public static final int alfdev__button_login=0x7f080077;
         public static final int alfdev__button_save=0x7f080072;
         public static final int alfdev__data_input_axis=0x7f080087;
@@ -2381,11 +2419,11 @@ containing a value of this type.
         public static final int alfdev__edittext_view_xl=0x7f080095;
         public static final int alfdev__edittext_xl=0x7f08006f;
         public static final int alfdev__image_logo=0x7f080073;
-        public static final int alfdev__menu_about=0x7f0800b5;
-        public static final int alfdev__menu_darktheme=0x7f0800b3;
-        public static final int alfdev__menu_exit=0x7f0800b6;
-        public static final int alfdev__menu_lighttheme=0x7f0800b2;
-        public static final int alfdev__menu_logout=0x7f0800b4;
+        public static final int alfdev__menu_about=0x7f0800b6;
+        public static final int alfdev__menu_darktheme=0x7f0800b4;
+        public static final int alfdev__menu_exit=0x7f0800b7;
+        public static final int alfdev__menu_lighttheme=0x7f0800b3;
+        public static final int alfdev__menu_logout=0x7f0800b5;
         public static final int alfdev__navigation_view=0x7f08007c;
         public static final int alfdev__spinner_cvs_list=0x7f080075;
         public static final int alfdev__spinner_day_visit=0x7f080069;

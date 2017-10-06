@@ -25,6 +25,7 @@ import android.*;
 import android.support.v7.app.*;
 import android.provider.*;
 import android.content.pm.*;
+import android.database.sqlite.*;
 
 public class DataActivity extends AppCompatActivity {
 
@@ -150,6 +151,13 @@ public class DataActivity extends AppCompatActivity {
 			case android.R.id.home:
 				onBackPressed();
 				break;
+			case R.id.alfdev__action_delete_database:
+				if (adapter.getCount() == 0) {
+				
+				} else {
+					HapusDatabase();
+				}
+				break;
 			case R.id.alfdev__action_convert_and_send:
 				if (adapter.getCount() == 0) {
 					FileEmptyDialog();
@@ -234,6 +242,7 @@ public class DataActivity extends AppCompatActivity {
 	public void ConvertAndSend () {
 		SharedPreferences sharedPreferences = getSharedPreferences("in.alfdev.cdmp_preferences",Context.MODE_PRIVATE);
 		final String canvasser = sharedPreferences.getString("canvasser","");
+		final String email = sharedPreferences.getString("email","");
 
 		String FileExcel = canvasser+"_CDMP.xls";
 
@@ -262,7 +271,7 @@ public class DataActivity extends AppCompatActivity {
 
 		// Send The File Via Email
 		Intent emailIntent = new Intent(Intent.ACTION_SEND);
-		emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{ "cdmp.awg@gmail.com"});
+		emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{ email});
 		emailIntent.putExtra(Intent.EXTRA_SUBJECT, "REPORT CDMP "+canvasser);
 		emailIntent.putExtra(Intent.EXTRA_TEXT, "Hatur Nuhun");
 		emailIntent.setType("message/rfc822");
@@ -287,5 +296,40 @@ public class DataActivity extends AppCompatActivity {
 		alert.show();
 
 	}
+	
+	
+	// Delete Database Dialog
+	public void HapusDatabase() {
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setMessage("Apakah anda yakin untuk menghapus semua data?")
+			.setTitle("Hapus Data")
+			.setCancelable(false)
+			.setNegativeButton("Batal", new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog, int id) {
+					dialog.cancel();
+				}
+			})
+			.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog, int id) {
+					String DB_NAME = "ALFDEV_INPUTDATA.DB";
+					String FILE_PATH = "/data/data/in.alfdev.cdmp/databases/";
+					SQLiteDatabase.deleteDatabase(new File(FILE_PATH+DB_NAME));
+					recreateActivity();
+					
+				}
+			});
+			
+		AlertDialog alert = builder.create();
+		alert.show();
+
+	}
+	
+	//recreate/refresh Activity
+    private void recreateActivity()
+	{
+    	this.finish();
+        this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+        startActivity(new Intent(this, this.getClass()));
+    }
 
 }

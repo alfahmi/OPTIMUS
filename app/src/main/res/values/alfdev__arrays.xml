@@ -6,15 +6,10 @@
 		<item>TDC KUNINGAN</item>
 		<item>TDC MAJALENGKA</item>
 	</string-array>
-	<string-array name="alfdev__outlet_list">
-		<item>MERPATI ACC</item>
-		<item>ANS CELL</item>
-		<item>CAHAYA ACC</item>
-	</string-array>
 	<string-array name="alfdev__office_awg_cvs">
-		<item>ADE D</item>
-		<item>ARDIAN</item>
 		<item>AGUNG S</item>
+		<item>ARDIAN</item>
+		<item>DEDE I</item>
 		<item>M IRVAN</item>
 		<item>DEVI N</item>
 	</string-array>
@@ -23,13 +18,13 @@
 		<item>ANDRI</item>
 		<item>DUDU A</item>
 		<item>DEDI KOSWARA</item>
-		<item>DUDU A</item>
+		<item>MOCH RIZAL</item>
 	</string-array>
 	<string-array name="alfdev__office_kng_cvs">
 		<item>AANG HASAN</item>
 		<item>ARIEF F</item>
 		<item>ASEP A</item>
-		<item>DEDI SODIKIN</item>
+		<item>DENI SODIKIN</item>
 		<item>DUDI RUDIYANTO</item>
 		<item>FERRY LIDIANTO</item>
 		<item>IMAN AGISMAN</item>
@@ -64,4 +59,1755 @@
 		<item>RECHARGE SHARE BROADBAND</item>
 		<item>MARKET SHARE BROADBAND</item>
 	</string-array>
+	<!--- AWG OUTLET -->
+	<string-array name="alfdev__outlet_awg_agung_s">
+		<item>AA CELL</item>
+		<item>ADICANTEL CELL</item>
+		<item>AEF CELL</item>
+		<item>AFRIANSAH CELL</item>
+		<item>AFZENS CELL</item>
+		<item>AHSAN CELL</item>
+		<item>AK CELL</item>
+		<item>AKHDAN CELL</item>
+		<item>AL HUSNA CELL</item>
+		<item>ALDI CELL</item>
+		<item>AMEL</item>
+		<item>AN`S CELL</item>
+		<item>ANG CELL</item>
+		<item>ANGGREK CELL</item>
+		<item>ANS CELL</item>
+		<item>ANS CELL</item>
+		<item>AZZAHRA CELL</item>
+		<item>BINTANG2 CELL</item>
+		<item>CECEP CEL</item>
+		<item>DEVIRA CELL</item>
+		<item>DHIKA CELL</item>
+		<item>DHIO CELL</item>
+		<item>DIMAZ CELL</item>
+		<item>DND CELL</item>
+		<item>DONO CELL</item>
+		<item>ECON CELL</item>
+		<item>ERIC CELL</item>
+		<item>EZA CELL</item>
+		<item>FAQIHUDA1</item>
+		<item>FIA CELL</item>
+		<item>FIS CELLULAR</item>
+		<item>FIX CELL</item>
+		<item>GANE CELL</item>
+		<item>HANA CELL</item>
+		<item>HARUN CELL</item>
+		<item>INSAN CELL</item>
+		<item>KMB CELL</item>
+		<item>KRISTIN CELL</item>
+		<item>LINGGA CELL1</item>
+		<item>MAKMURCRLL</item>
+		<item>MAMAT CELL</item>
+		<item>MEDI CELL</item>
+		<item>MEGA CELL</item>
+		<item>NEO CELL</item>
+		<item>NUANSA CELL</item>
+		<item>NUNU CELL</item>
+		<item>PANJICELL</item>
+		<item>PASABEL CEL</item>
+		<item>PUTRA PANDAWA CELL</item>
+		<item>PUTRI CELL</item>
+		<item>QYAN CELL</item>
+		<item>RAJAPULSA</item>
+		<item>REFFA</item>
+		<item>RIKA CELL</item>
+		<item>SARAHCELL</item>
+		<item>SINARTERANG</item>
+		<item>SP CELL</item>
+		<item>TAMA CELL</item>
+		<item>TANJUNG CELL</item>
+		<item>TANJUNG CELL 1</item>
+		<item>TANJUNG3</item>
+		<item>TIO CELL</item>
+		<item>VANESSA CELL</item>
+		<item>VANESSA CELL 1</item>
+		<item>VICKY CELL</item>
+		<item>WAHANA CELL</item>
+		<item>WARUNG 7 CELL</item>
+		<item>WIKEU CELL</item>
+		<item>ZIA CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_awg_ardian_s">
+		<item>A n F CELL</item>
+		<item>AAL CELL</item>
+		<item>AGUS CELL</item>
+		<item>AJENG CELL</item>
+		<item>AJRIL CELL</item>
+		<item>ANANDA CELL</item>
+		<item>ANTRIX CELL</item>
+		<item>AYU CELL</item>
+		<item>DAM CELL</item>
+		<item>DARA CELL</item>
+		<item>DJUNA CELL</item>
+		<item>EDOL CELL</item>
+		<item>ELVA CELL</item>
+		<item>FATHUL CELL</item>
+		<item>FATHUN CELL</item>
+		<item>FITRIA CEL</item>
+		<item>GM CELL(GUNTUR MADU)</item>
+		<item>INFRA CELL</item>
+		<item>INFRA CELL 2</item>
+		<item>IRDAN CELL</item>
+		<item>JURAGAN CELL</item>
+		<item>KURNIA CELL</item>
+		<item>MAHKOTA CELL</item>
+		<item>MARIO CELL</item>
+		<item>MAZDAH CELL</item>
+		<item>MILA CELL</item>
+		<item>NAEZA CELL</item>
+		<item>NDANK CELL</item>
+		<item>NENA CELL</item>
+		<item>NENI CELL</item>
+		<item>PASAR CELL</item>
+		<item>PRATAMA CELL</item>
+		<item>PRIMA CELL</item>
+		<item>RIDHO CELL</item>
+		<item>SINDANG PHONE SHOP CELL</item>
+		<item>SRI CELL</item>
+		<item>STAR CELL</item>
+		<item>SUKACI CELL</item>
+		<item>TUTI CELL</item>
+		<item>VINA CELL</item>
+		<item>WINDI CELL</item>
+		<item>YAYAH CELL</item>
+		<item>YOMI CELL</item>
+		<item>YULIA CELL</item>
+		<item>ZONA CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_awg_dede_i">
+		<item>16 CELL</item>
+		<item>2 MUTIARA CELL</item>
+		<item>A N S   CELL</item>
+		<item>AA CELL</item>
+		<item>ADI CELL</item>
+		<item>ADIN JAYA</item>
+		<item>AL BAROKAH CELL</item>
+		<item>AMALIA CELL</item>
+		<item>ANNUR CELL</item>
+		<item>BAKTI CELL</item>
+		<item>BOMBAY CELL</item>
+		<item>BRIAN CELL</item>
+		<item>BTN CELL</item>
+		<item>CITRA CELL</item>
+		<item>DAVIT CELL</item>
+		<item>DEWI CELL</item>
+		<item>DQ CELL</item>
+		<item>FAMILY CELL</item>
+		<item>FIERLAND CELL</item>
+		<item>G CELL</item>
+		<item>GALIPAT CELL</item>
+		<item>GEBOY CELL</item>
+		<item>IIP CELL</item>
+		<item>IKHSAN CELL</item>
+		<item>ILHAM</item>
+		<item>JAYA CELL</item>
+		<item>JHONY CELL</item>
+		<item>JURNALIS CELL</item>
+		<item>KARISMA JAYA CELL</item>
+		<item>LESTARI CELL</item>
+		<item>LINZ CELL</item>
+		<item>MASKAR</item>
+		<item>MEGA CELL</item>
+		<item>MELATI CELL</item>
+		<item>MERPATI CELL</item>
+		<item>MILA CELL</item>
+		<item>MITRA CELL</item>
+		<item>NASAN CELL</item>
+		<item>NENGRISTIA CELL</item>
+		<item>NIZAR CELL</item>
+		<item>NOER CELL</item>
+		<item>NUGRAHA CELL</item>
+		<item>ORIN CELL</item>
+		<item>PALAPA CELL</item>
+		<item>PERDANA CELL</item>
+		<item>PRAMUDITA CELL</item>
+		<item>PURABAYA CELL</item>
+		<item>PUTIH CELL</item>
+		<item>RECESTA CELL</item>
+		<item>REVAN CELL</item>
+		<item>RIYAN CELL</item>
+		<item>SEDERHANA CELL</item>
+		<item>TOPIK</item>
+		<item>TRIE</item>
+		<item>VEGA CELL</item>
+		<item>WAHANA CELL</item>
+		<item>WINS CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_awg_devi_n">
+		<item>ADIT CELL</item>
+		<item>ALEXIS CELL</item>
+		<item>ANS CELL</item>
+		<item>ANUGRAH CELL</item>
+		<item>APIH CELL</item>
+		<item>APUN CELL</item>
+		<item>ARKAN CELL</item>
+		<item>ARMADA CELL</item>
+		<item>ARUZA  CELL</item>
+		<item>AZZINDAN CELL</item>
+		<item>BERKAH CELL</item>
+		<item>BOY CELL</item>
+		<item>BUMI PULSA CELL</item>
+		<item>CAHAYA CELL</item>
+		<item>CHIKO CELL</item>
+		<item>CIWOW CELL</item>
+		<item>DEA CELL</item>
+		<item>DENTA CELL</item>
+		<item>DIKA CELL</item>
+		<item>DILA CELL</item>
+		<item>DINDA CELL</item>
+		<item>DINI CELL</item>
+		<item>DM CELL</item>
+		<item>DUTA CELL</item>
+		<item>ENSO CELULLER</item>
+		<item>ENUNG CELL</item>
+		<item>ERLY CELL</item>
+		<item>FADIL CELL</item>
+		<item>FAHRI CELL</item>
+		<item>FAIZAL CELL</item>
+		<item>FEBY CELL</item>
+		<item>GHIBRAN CELL</item>
+		<item>GIYO CELL</item>
+		<item>HANIFS CELL</item>
+		<item>IDAH CELL</item>
+		<item>IDAMAN CELL</item>
+		<item>JAYA CELL</item>
+		<item>KUS CELLULER</item>
+		<item>LAUREN CELL</item>
+		<item>LIONK CELL</item>
+		<item>MAHKOTA CELL</item>
+		<item>MAKMUR 2 CELL</item>
+		<item>MAKMUR CELL</item>
+		<item>MARSHA CELL</item>
+		<item>MD CELL</item>
+		<item>MDS CELL</item>
+		<item>NAUFAL CELL</item>
+		<item>NK CELL</item>
+		<item>OGI CELL</item>
+		<item>OZAN CELL</item>
+		<item>OZI CELL</item>
+		<item>PERMANA CELL</item>
+		<item>PHONE 21 CELL</item>
+		<item>PURABAYA CELL</item>
+		<item>RAFFA CELL</item>
+		<item>RIAN CELL</item>
+		<item>RIDHO CELL</item>
+		<item>RIRI CELL</item>
+		<item>RIZKY CELL</item>
+		<item>SEINA CELL</item>
+		<item>SETIA KOMUNIKA</item>
+		<item>SYERLY CELL</item>
+		<item>TIARA CELL</item>
+		<item>TOKO DIAN</item>
+		<item>VIO-X CELL</item>
+		<item>V-K CELL</item>
+		<item>WARUNG CELL</item>
+		<item>X CELL</item>
+		<item>ZAMZAM CELL</item>
+		<item>ZIDAN CELL</item>
+		<item>ZOIN CELL</item>
+		<item>ZULFA CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_awg_m_irvan">
+		<item>ABIEL CELL</item>
+		<item>AJIB CELL</item>
+		<item>AJIMUT CELL</item>
+		<item>ALIS CELL</item>
+		<item>AM CEL</item>
+		<item>ARINI CELL</item>
+		<item>ARYA CELL</item>
+		<item>BARAYA CELL</item>
+		<item>BUNGA CELL</item>
+		<item>BYAN CELL</item>
+		<item>CAT CELL</item>
+		<item>CECEP CELL</item>
+		<item>CIDAHU CELL</item>
+		<item>DA CELLULAR</item>
+		<item>DAIA CELL</item>
+		<item>DELLA CELL</item>
+		<item>DM CELL</item>
+		<item>DMC CELL</item>
+		<item>DWI CELL</item>
+		<item>DWI PUTRI CELL</item>
+		<item>EHA</item>
+		<item>ELIZA CELL</item>
+		<item>FARLA CEL</item>
+		<item>GIBRAN CELL</item>
+		<item>HANIF CELL</item>
+		<item>HERID CEL</item>
+		<item>IAN CELL</item>
+		<item>ICHA CELL</item>
+		<item>INK CELL</item>
+		<item>JELITA CELL</item>
+		<item>KLINIK CELL</item>
+		<item>MQ CELL</item>
+		<item>MZ CELL</item>
+		<item>NANDA CELL</item>
+		<item>NANI CELL</item>
+		<item>NAY CELL</item>
+		<item>NAYA CELL</item>
+		<item>NENENG CELL</item>
+		<item>NINA CELL</item>
+		<item>OMEN CELL</item>
+		<item>PGS 2 CELL</item>
+		<item>PGS CELL</item>
+		<item>PHONE 12</item>
+		<item>PLANET CELL</item>
+		<item>PLAY CELL</item>
+		<item>PLAY CELL 2</item>
+		<item>PUNDI CELL</item>
+		<item>QITARO CEL</item>
+		<item>RELAX CELL</item>
+		<item>REMBULAN CELL</item>
+		<item>RENDY CEL</item>
+		<item>RENGGANIS CELL</item>
+		<item>RUMAH CELLULER</item>
+		<item>TIEN CEL 2</item>
+		<item>TISNA CELL</item>
+		<item>UNGU CELL</item>
+		<item>VARIN CELL</item>
+		<item>VARIN CELL 3</item>
+		<item>VHIANT CELL</item>
+		<item>W ARYA</item>
+		<item>WARUNG CELL</item>
+		<item>YU CELL</item>
+		<item>ZAKIA CELL</item>
+	</string-array>
+	<!--- CKJ OUTLET -->
+	<string-array name="alfdev__outlet_ckj_andri">
+		<item>ABDI JAYA CELL</item>
+		<item>AGUN CELL</item>
+		<item>AIP CELL</item>
+		<item>AKBAR CELL TLG</item>
+		<item>AL AMIN CELL</item>
+		<item>ALAMI CELL</item>
+		<item>ALDI CELL</item>
+		<item>ALFAN CELL TLG</item>
+		<item>ALYA CELL TLG</item>
+		<item>ALYSA CELL</item>
+		<item>ANGGUN 2</item>
+		<item>ANGGUN CELL</item>
+		<item>ANONIM CELL TLG</item>
+		<item>ARUL CELL</item>
+		<item>ATIP CELL</item>
+		<item>BARAYA CELL TLG</item>
+		<item>BAROKAH CELL TLG</item>
+		<item>BESS CELL</item>
+		<item>BINTANG CELL BJR</item>
+		<item>CAHAYA CELL TLG</item>
+		<item>CICIH CELL</item>
+		<item>CLINIK PHONE</item>
+		<item>DAMEY CELL</item>
+		<item>DWINAGRI</item>
+		<item>DZAKY CELL</item>
+		<item>ELFA CELL</item>
+		<item>ELVA CELL</item>
+		<item>FAZRY CELL</item>
+		<item>FZ CELL TLG</item>
+		<item>GAMMA CELL</item>
+		<item>GIGA CELL</item>
+		<item>HAMDAL CELL</item>
+		<item>HAMDAN CELL</item>
+		<item>HARI CELL</item>
+		<item>JASMINE CELL</item>
+		<item>JEMPOL CELL</item>
+		<item>JP 2  CELL</item>
+		<item>JP CELL</item>
+		<item>KALIMAS CELL</item>
+		<item>KAMILA CELL</item>
+		<item>KCN CELL</item>
+		<item>KENZIE</item>
+		<item>KHANZA CELL</item>
+		<item>KOBAR CELL</item>
+		<item>KURNIA CELL TLG</item>
+		<item>LLM CELL</item>
+		<item>M.HUMAIRA</item>
+		<item>MADANI CELL</item>
+		<item>MANDALA CELL</item>
+		<item>MAULANA CELL</item>
+		<item>MEI CELL</item>
+		<item>N2 CELL</item>
+		<item>NYTI CELL</item>
+		<item>PLANET CELL</item>
+		<item>POLICE CELL BJR</item>
+		<item>RIVAN CELL</item>
+		<item>RR CELL</item>
+		<item>RS CELL</item>
+		<item>SUMBER RAHAYU CELL</item>
+		<item>TALAGA PHONE CELL</item>
+		<item>TREE S CELL</item>
+		<item>VIEW CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_ckj_anjas_asmara">
+		<item>3 SAUDARA CELL</item>
+		<item>99 CELL</item>
+		<item>A CELL</item>
+		<item>AGISS CELL</item>
+		<item>AIKO CELL</item>
+		<item>ALDO CELL</item>
+		<item>ALIFIA CELL</item>
+		<item>AMUNG CELL</item>
+		<item>ANDROID STORE</item>
+		<item>ANGGARA CELL</item>
+		<item>ANNA CELL</item>
+		<item>ARIEL  CELL</item>
+		<item>AS 1 CELL</item>
+		<item>ATIENS CELL</item>
+		<item>BAD CELL</item>
+		<item>BARSAK CELL</item>
+		<item>BELLA CELL</item>
+		<item>BINTANG CELL</item>
+		<item>CAHYA CELL</item>
+		<item>CENTRAL COMUNICATION</item>
+		<item>CHIFA 2 CELL</item>
+		<item>CHIFA CELL</item>
+		<item>DEDE CELL</item>
+		<item>DELIMA CELL</item>
+		<item>DENS CELL</item>
+		<item>DK CELL</item>
+		<item>DUTA CELL</item>
+		<item>EKSTRA COM</item>
+		<item>ELEGAN CELL</item>
+		<item>ELZIF CELL</item>
+		<item>FAJAR CELL</item>
+		<item>GILDAS CELL</item>
+		<item>GIPRAM CELL</item>
+		<item>IDOLA CELL</item>
+		<item>ILHAM CELL</item>
+		<item>JAMILAH CELL</item>
+		<item>JOKER CELL</item>
+		<item>KALIMAS CELL CKJ</item>
+		<item>KEIKO CELL</item>
+		<item>KOKOM CELL</item>
+		<item>KURNIA CELL</item>
+		<item>LASKAR CELL</item>
+		<item>LESTARI SHOP</item>
+		<item>LIN CELL</item>
+		<item>MERPATI CELL</item>
+		<item>MILA CELL</item>
+		<item>MONIPHONE CELL</item>
+		<item>MUTIARA CELL</item>
+		<item>NOUVAL CELL</item>
+		<item>NOVI CELL</item>
+		<item>PADJENG CELL</item>
+		<item>PURNAMA CELL</item>
+		<item>RASTA CELL</item>
+		<item>RAWALINDO CELL</item>
+		<item>RIO CELL</item>
+		<item>SAHABAT CELL</item>
+		<item>SIDQIA CELL</item>
+		<item>SKEMA CELL</item>
+		<item>SKETSA CELL</item>
+		<item>SUCI CELL</item>
+		<item>TECHNO MEDIA CELL</item>
+		<item>TIARA CELL</item>
+		<item>VIONA CELL</item>
+		<item>WILDAN CELL</item>
+		<item>YEN CELL</item>
+		<item>ZAHRA CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_ckj_dudu_a">
+		<item>AGIS BOY CELL</item>
+		<item>AJI CELL</item>
+		<item>ALFAN CELL</item>
+		<item>ALYA CELL</item>
+		<item>ANONIM CELL</item>
+		<item>ANUGRAH PERMATA CELL</item>
+		<item>ARIE CELL</item>
+		<item>ASSYARIF CELL</item>
+		<item>ATTALA CELL</item>
+		<item>AZ-TRONIK</item>
+		<item>BAROKAH CELL MLSM</item>
+		<item>BARRU CELL</item>
+		<item>BONWI CELL</item>
+		<item>CITRA BAROKAH CELL</item>
+		<item>DAN CELL</item>
+		<item>DEAN CELL</item>
+		<item>DENA CELL</item>
+		<item>DIAN CELL</item>
+		<item>DIMAS CELL</item>
+		<item>EGI CELL</item>
+		<item>EKATAMA CELL</item>
+		<item>EPUL CELL</item>
+		<item>ERNI CELL</item>
+		<item>EVI CELL</item>
+		<item>EVIL CELL</item>
+		<item>FAMILY CELL MLSM</item>
+		<item>FAZEH CELL</item>
+		<item>FIDELA CELL</item>
+		<item>FRISHA CELL</item>
+		<item>FRISKY CELL</item>
+		<item>FZ CELL</item>
+		<item>GOENS  CELL</item>
+		<item>IIS CELL CKJ</item>
+		<item>ILFA CELL</item>
+		<item>ILHAM CELL MSM</item>
+		<item>ILMI CELL</item>
+		<item>IMA CELL</item>
+		<item>IQRO CELL</item>
+		<item>ISTANA PHONSELL</item>
+		<item>KIKI CELL</item>
+		<item>LATANZA CELL</item>
+		<item>LINDA CELL</item>
+		<item>LUGINA CELL</item>
+		<item>MALA CELL</item>
+		<item>MELKY CELL</item>
+		<item>MIA CELL</item>
+		<item>MJ CELL</item>
+		<item>NAVITA CELL</item>
+		<item>NP CELL</item>
+		<item>PUSPA CELL</item>
+		<item>PUTRI CELL</item>
+		<item>RnR CELL</item>
+		<item>RAFFA CELL</item>
+		<item>RAHAYU CELL</item>
+		<item>RAISA CELL</item>
+		<item>RESTA CELL</item>
+		<item>RIFAL CELL</item>
+		<item>RINGTOP CELL</item>
+		<item>RISAL CELL</item>
+		<item>RIZAL CELL</item>
+		<item>ROSS CELL</item>
+		<item>SINTIA CELL</item>
+		<item>SM CELL</item>
+		<item>SMA 1 BANTARUJEG</item>
+		<item>SOFIA CELL</item>
+		<item>SRI RAHAYU KOMUNIKA</item>
+		<item>SRI RAHAYU MTS</item>
+		<item>SYIFA CELL</item>
+		<item>TETEN CELL</item>
+		<item>TOKO FUJATI</item>
+		<item>TOKO VIDIA</item>
+		<item>UPTD DINAS PENDIDIKAN</item>
+		<item>V3 CELL</item>
+		<item>WILDA CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_ckj_dedi_koswara">
+		<item>AGUS CELL</item>
+		<item>AKRAB CELL</item>
+		<item>ALI CELL</item>
+		<item>AMELIA CELL</item>
+		<item>ARIF CELL</item>
+		<item>ASRI CELL</item>
+		<item>ASTINA CELL</item>
+		<item>AZKA CELL SBG</item>
+		<item>AZZAM CELL</item>
+		<item>BOZKA CELL</item>
+		<item>BSOT CELL</item>
+		<item>CAHAYA CELL</item>
+		<item>DADAWAH CELL</item>
+		<item>ETPS CELL</item>
+		<item>GNF CELL</item>
+		<item>HESTI CELL</item>
+		<item>HMC CELL</item>
+		<item>KARISTA CELL</item>
+		<item>KECOT CELL</item>
+		<item>KM CELL</item>
+		<item>LANGIT CELL</item>
+		<item>LETS CELL</item>
+		<item>MAMAN CELL</item>
+		<item>NENENG CELL</item>
+		<item>PRIMA JAYA CELL</item>
+		<item>RESTU CELL</item>
+		<item>RITA CELL</item>
+		<item>RIZKA CELL</item>
+		<item>RULY CELL</item>
+		<item>SATRIA CELL</item>
+		<item>SIGMA CELL</item>
+		<item>SINAR CELL</item>
+		<item>SOLUSI CELL</item>
+		<item>TANTI CELL</item>
+		<item>TEDI CELL</item>
+		<item>TIA</item>
+		<item>TWIN CELL</item>
+		<item>UZ CELL</item>
+		<item>VITA CELL</item>
+		<item>WIWIN CELL</item>
+		<item>YAN CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_ckj_moch_rizal">
+		<item>ABIN CELL</item>
+		<item>ADIS CELL</item>
+		<item>AKSO KURNIA CELL</item>
+		<item>ALBI CELL</item>
+		<item>ALGHIEF CELL</item>
+		<item>ANUGRAH</item>
+		<item>ANUGRAH LOGAM CELL</item>
+		<item>ASYIFA CELL</item>
+		<item>AZAN CELL</item>
+		<item>AZZAHRA CELL</item>
+		<item>B.I.Y CELL</item>
+		<item>BAROKAH CELL</item>
+		<item>BOEDS CELL</item>
+		<item>BOY CELL</item>
+		<item>CECEP CELL</item>
+		<item>CYBER CELL</item>
+		<item>DANDI CELL</item>
+		<item>DEAS CELL</item>
+		<item>DELIA CELL</item>
+		<item>DELTA CELL</item>
+		<item>DENISA CELL</item>
+		<item>EVA 2 CELL</item>
+		<item>EXIST CELL</item>
+		<item>FAATIH CELL</item>
+		<item>FAJAR CELL LMH</item>
+		<item>FORTUNA CELL</item>
+		<item>GAZZA CELL</item>
+		<item>GUGUN CELL</item>
+		<item>HENK CELL</item>
+		<item>IBENK CELL</item>
+		<item>IBS ONE CELL</item>
+		<item>ISMIE CELL</item>
+		<item>JAVA CELL</item>
+		<item>JAYA CELL</item>
+		<item>JSA CELL</item>
+		<item>KIRANA CELL</item>
+		<item>KISS CELL</item>
+		<item>KURNIA CELL LMH</item>
+		<item>MIZAN CELL</item>
+		<item>MUTIA CELL</item>
+		<item>NEII CELL</item>
+		<item>NIA CELL</item>
+		<item>PANDAWA CELL</item>
+		<item>PAUJAN CELL</item>
+		<item>POLICE CELL</item>
+		<item>PUTRIE CELL</item>
+		<item>RIADH CELL</item>
+		<item>RIFQI CELL</item>
+		<item>RIKA CELL</item>
+		<item>RIKAT CELL</item>
+		<item>RISMA CELL</item>
+		<item>SAHUR CELL</item>
+		<item>SANSA CELL</item>
+		<item>SHELIN CELL</item>
+		<item>SKAI CELL</item>
+		<item>SUCI PADAREK CELL</item>
+		<item>TRIMULYA CELL</item>
+		<item>WINA CELL</item>
+		<item>WONG CELL</item>
+		<item>YANI CELL</item>
+		<item>ZAHWA CELL</item>
+	</string-array>
+	<!--- KNG OUTLET -->
+	<string-array name="alfdev__outlet_kng_aang_hasan">
+		<item>ABIL CELL</item>
+		<item>AINUN CELL</item>
+		<item>ALDY CEL</item>
+		<item>AM CELL</item>
+		<item>ARIA CELL</item>
+		<item>ATHA CELL</item>
+		<item>BELL CELL</item>
+		<item>BMS</item>
+		<item>BOBOTOH CELL</item>
+		<item>BRYAN CELL</item>
+		<item>C-MELL CELL</item>
+		<item>DETH CELL</item>
+		<item>DIANA CELL</item>
+		<item>GEMBUL CELL</item>
+		<item>GHOCENG CEL</item>
+		<item>GIE CELL</item>
+		<item>GITA CELL</item>
+		<item>GLOBAL CELL</item>
+		<item>GUCI CELL</item>
+		<item>IRHAS CELL</item>
+		<item>JANUAR CELL</item>
+		<item>JAYA CELL</item>
+		<item>JAYA CELL</item>
+		<item>KENANGA CELL</item>
+		<item>KHILAFAH CELL</item>
+		<item>KUNCUNG CELL</item>
+		<item>KURNIA CELL</item>
+		<item>KUS CELLULAR</item>
+		<item>MAR CELL</item>
+		<item>MDK CELL</item>
+		<item>NABILAH CELL</item>
+		<item>NAZWA CELL</item>
+		<item>NIA CEL</item>
+		<item>PANJI CELL</item>
+		<item>Q OSPILA</item>
+		<item>RAFA CELL</item>
+		<item>REAL CELL</item>
+		<item>RISA CELL</item>
+		<item>RUDI CELL</item>
+		<item>SABILI CELL</item>
+		<item>SALUYU CELL</item>
+		<item>SERDADU CELL</item>
+		<item>STC CELL</item>
+		<item>TN CELL 2</item>
+		<item>WADDUHA CELL</item>
+		<item>YANA CELL</item>
+		<item>ZAKIYA CELL</item>
+		<item>ZIKRY CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_kng_arief_f">
+		<item>ADIL CELL</item>
+		<item>ANISA CELL</item>
+		<item>ANYER CELL</item>
+		<item>APIP CELL</item>
+		<item>AZKA CEL</item>
+		<item>BAGAS CELL</item>
+		<item>BANGKIT CELL</item>
+		<item>BEJO CELL</item>
+		<item>BODING CELL</item>
+		<item>BOX CELL</item>
+		<item>DAVA CEL</item>
+		<item>DAVINA CELL</item>
+		<item>DENNY CELL</item>
+		<item>DILLA CELL</item>
+		<item>DINDA</item>
+		<item>DWI CELL</item>
+		<item>EVOLUTION CELL</item>
+		<item>FADIL CELL</item>
+		<item>FNS CELL</item>
+		<item>GIO CELL</item>
+		<item>HAKIM CELL</item>
+		<item>HASAN CELL</item>
+		<item>IBNU CELL</item>
+		<item>IKHSAN CELL</item>
+		<item>IS CELL</item>
+		<item>LESTARI CELL</item>
+		<item>MAYA CELL</item>
+		<item>MELISA CELL</item>
+		<item>MITHA CELL</item>
+		<item>NADIA CELL</item>
+		<item>NADIN CELL</item>
+		<item>NCM</item>
+		<item>RAHMA CELL</item>
+		<item>RAHMA CELL 2</item>
+		<item>RUMAH PULSA</item>
+		<item>SHOFIE CELL</item>
+		<item>SPEED CELL</item>
+		<item>VIDI DAFA CEL</item>
+		<item>VIZAR CELL</item>
+		<item>ZIAD CELL</item>
+		<item>ZULFA CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_kng_asep_a">
+		<item>276 CELL</item>
+		<item>58 CELL</item>
+		<item>A CELL</item>
+		<item>ADAM CELL</item>
+		<item>AGUNG CELL</item>
+		<item>ALAN CELL</item>
+		<item>ANS CELL</item>
+		<item>APRIAN CELL</item>
+		<item>AR CELL</item>
+		<item>ARTHA RAYA CELL</item>
+		<item>ARUM SARI CELL</item>
+		<item>AZHAR CELL</item>
+		<item>BERKAH CELL</item>
+		<item>BHOBIT CELL</item>
+		<item>BILLY CELL</item>
+		<item>BRONZ CELL</item>
+		<item>CHANEL 78 CELL</item>
+		<item>CHIMUT CELL</item>
+		<item>CS CELL</item>
+		<item>DANIA CELL</item>
+		<item>DANS CELL</item>
+		<item>DARRELQIS</item>
+		<item>DIANA CELL</item>
+		<item>DIC CELL</item>
+		<item>DICXY CELL</item>
+		<item>DIFORTUNA CELL</item>
+		<item>DITA CELL</item>
+		<item>EFAL CELL</item>
+		<item>EKI CELL</item>
+		<item>EKO CELL</item>
+		<item>FAMILY CELL</item>
+		<item>GADGETLICIOUS CELL</item>
+		<item>GALERI PONSEL</item>
+		<item>GALERRY GADGET</item>
+		<item>GARUDA</item>
+		<item>GINA JAYA</item>
+		<item>GITA CELL</item>
+		<item>HARAPAN CELL</item>
+		<item>HITECH CELL</item>
+		<item>INDRI CELL 2</item>
+		<item>ION CELL</item>
+		<item>IP CELLULAR</item>
+		<item>IWAN CELL</item>
+		<item>JAPRAM CELL</item>
+		<item>KELANA CELL</item>
+		<item>KEZZO CELL</item>
+		<item>KOKO CELL</item>
+		<item>LAMDA CELL</item>
+		<item>LAYLA CELL</item>
+		<item>LIA CELL</item>
+		<item>M SHEEL CELL</item>
+		<item>MC CELL</item>
+		<item>ME 2 CELL</item>
+		<item>ME CELL</item>
+		<item>MEGA CELL</item>
+		<item>MELIA CELL</item>
+		<item>MERIK CELL</item>
+		<item>MHAR CELL</item>
+		<item>MK CELL</item>
+		<item>NQ CELL</item>
+		<item>PANAMA CELL</item>
+		<item>PASKA CELL</item>
+		<item>PIUL CELL</item>
+		<item>PJM CELL</item>
+		<item>POLLO CELL</item>
+		<item>RADESTA CELL</item>
+		<item>RAWEUY CELL</item>
+		<item>RENA CELL</item>
+		<item>RIAN</item>
+		<item>RISA CELL</item>
+		<item>RUSDI CELL</item>
+		<item>SINAR CELL</item>
+		<item>SLOW CELL</item>
+		<item>SYARIKAH CELL</item>
+		<item>TERMINAL CELL</item>
+		<item>TRENDY CELL</item>
+		<item>TWINS 1 CELL</item>
+		<item>VEGATECH CELL</item>
+		<item>VIA CELL</item>
+		<item>VIRGO CELL</item>
+		<item>VITASARI CELL</item>
+		<item>ZAHRO INDO CELL</item>
+		<item>ZIA CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_kng_deni_sodikin">
+		<item>ABADI KOMUNIKA 2 CELL</item>
+		<item>ABIL </item>
+		<item>AD1 CELL</item>
+		<item>ADI CELL</item>
+		<item>AHONG CELL</item>
+		<item>AINI CELL</item>
+		<item>AL BAROKAH CELL</item>
+		<item>AMBI CELL</item>
+		<item>ANUGRAH CELL</item>
+		<item>ASIH CELL</item>
+		<item>AZZAM CELL</item>
+		<item>BERLIAN CELL</item>
+		<item>BIM BIM CELL</item>
+		<item>BUYUNG CELL</item>
+		<item>CAHAYA CELL</item>
+		<item>CHABI CELL</item>
+		<item>CINDI CELL</item>
+		<item>ERNI CELL</item>
+		<item>EVI CELL</item>
+		<item>FADILLAH CELL</item>
+		<item>FALISHA CEL</item>
+		<item>FRANS CELL</item>
+		<item>HANY CELL</item>
+		<item>HAUZAN CELL</item>
+		<item>HD CELL</item>
+		<item>IID CELL</item>
+		<item>IRVA CELL</item>
+		<item>JIHAN CELL</item>
+		<item>KAMPUNG CELL</item>
+		<item>KENJI CEL</item>
+		<item>KIKI CELL</item>
+		<item>LUCKY CEL</item>
+		<item>LUSI CELL</item>
+		<item>MARINA CELL</item>
+		<item>MARSYA CELL</item>
+		<item>MAWAR CELL</item>
+		<item>MINA CEL</item>
+		<item>MURAH CEL</item>
+		<item>MUTIARA CELL</item>
+		<item>M-ZHIE CELL</item>
+		<item>NA CELL</item>
+		<item>NABIL.CEL</item>
+		<item>NIA CELL</item>
+		<item>NIDA CELL</item>
+		<item>NINIK CELL</item>
+		<item>NISEN CELL</item>
+		<item>NUSA CELL</item>
+		<item>PARANTINA CELL</item>
+		<item>PERTAMA CEL</item>
+		<item>PIRAMID CELL</item>
+		<item>RAHMA CELL</item>
+		<item>RANGGA CELL</item>
+		<item>RANGGA CELL</item>
+		<item>REMAJA CELL</item>
+		<item>RG CELL</item>
+		<item>RIFKI CEL</item>
+		<item>RINA CELL</item>
+		<item>RIZKI CELL</item>
+		<item>SEHATI CEL</item>
+		<item>TIE CEL</item>
+		<item>UINK CELL</item>
+		<item>ULFAH CELL</item>
+		<item>VANI CELL</item>
+		<item>YOU 3 CELL</item>
+		<item>YOU CELL</item>
+		<item>YU 2 CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_kng_dudi_rudiyanto">
+		<item>7CELLULER</item>
+		<item>A\u0026W CELL</item>
+		<item>ADE CELL</item>
+		<item>ADZKA CELL</item>
+		<item>AKMAL CELL</item>
+		<item>ANGGA CELL</item>
+		<item>ARDI SELLA CELL</item>
+		<item>BATTAXE CELL</item>
+		<item>BERKAH CELL</item>
+		<item>CHIMAS CELL</item>
+		<item>CHUBOX22 CELL</item>
+		<item>CIKEDUNG CELL</item>
+		<item>DAVIT CELL</item>
+		<item>DAWAN CELL</item>
+		<item>DBS CELL</item>
+		<item>DENHAZ</item>
+		<item>DIAN CELL</item>
+		<item>ENGGO CELL</item>
+		<item>FAMALY CELL</item>
+		<item>GEMBOENG CELL</item>
+		<item>GITA CELL</item>
+		<item>HIDAYAH CELL</item>
+		<item>IHA CELL</item>
+		<item>KEYSHA CELL</item>
+		<item>LILI</item>
+		<item>MAMAN CELL</item>
+		<item>MELITA CELL 2</item>
+		<item>NIZAR CELL</item>
+		<item>NOCK CELL</item>
+		<item>NURIS CELL</item>
+		<item>ORION CELL</item>
+		<item>PCC CELL</item>
+		<item>PRO DATA</item>
+		<item>PURNAMA</item>
+		<item>PUTRA SUNDA CELL</item>
+		<item>RAMA CELL</item>
+		<item>REZ CELL</item>
+		<item>RICO CELL</item>
+		<item>RIEZAL CELL</item>
+		<item>RIZKI CELL</item>
+		<item>SAM CELL</item>
+		<item>SEVENTEEN CELL</item>
+		<item>TJ CELL</item>
+		<item>UNGGU CELL</item>
+		<item>WHITE CELL</item>
+		<item>WILLY CELL</item>
+		<item>WINDY CELL</item>
+		<item>X-PREES CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_kng_ferry_lidianto">
+		<item>9 CELL</item>
+		<item>AAZ CELL</item>
+		<item>ABID CELL</item>
+		<item>ABY CELL</item>
+		<item>ADE CELL</item>
+		<item>ADE PUTRA</item>
+		<item>ADI CELL</item>
+		<item>ADINDA CELLULER</item>
+		<item>AINI CELL</item>
+		<item>AKROM CELL</item>
+		<item>ALFA CELL</item>
+		<item>ALFA CELL 1</item>
+		<item>AMANAH CELL</item>
+		<item>AMANDA CELL</item>
+		<item>AMEL CELL</item>
+		<item>ANS CELL</item>
+		<item>APPRO CELL</item>
+		<item>BJ CELL</item>
+		<item>D LIA CELL</item>
+		<item>DELTA CELL</item>
+		<item>DELTA CELL 2</item>
+		<item>DIKA CELL2</item>
+		<item>DILLA CELL</item>
+		<item>DK CELL</item>
+		<item>ELIS CELL</item>
+		<item>ENDO CELL</item>
+		<item>ENGGAL TRONIK</item>
+		<item>EVANIA</item>
+		<item>FENK CELL</item>
+		<item>JIHAN CELL</item>
+		<item>JOE CELL</item>
+		<item>KEMBAR CELL</item>
+		<item>KUS CELL 2</item>
+		<item>LIBRA CELL</item>
+		<item>MAN CELL</item>
+		<item>MEDIA CELL</item>
+		<item>MOODS CELL 1</item>
+		<item>NUY CELL</item>
+		<item>PANGHEGAR CELL</item>
+		<item>PISSTONE CELL</item>
+		<item>PULSA ZONE</item>
+		<item>PUTRA CELL</item>
+		<item>PUTRA CELL</item>
+		<item>QIQA CELL</item>
+		<item>RAHMAH CELL</item>
+		<item>RAMA CELL</item>
+		<item>RAMA JAYA CELL</item>
+		<item>RESA CELL</item>
+		<item>RIFA CELL</item>
+		<item>RUDY CELL</item>
+		<item>VIDI CELL</item>
+		<item>WARNA CELL</item>
+		<item>WIDYA CELL</item>
+		<item>YUDISH CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_kng_iman_agisman">
+		<item>AINI CELL</item>
+		<item>ALFAHMI CELL</item>
+		<item>ANTON CELL</item>
+		<item>APOW CELL</item>
+		<item>ARFA CELL</item>
+		<item>AS RELOAD 1 CELL</item>
+		<item>B CELL</item>
+		<item>CEMPAKA CELL</item>
+		<item>CEY CELL</item>
+		<item>CIREMAI CELL</item>
+		<item>CRV CELL</item>
+		<item>DAYA KARYA CELL</item>
+		<item>DEDE CELL</item>
+		<item>DEDI CELL</item>
+		<item>DHIKA CELL</item>
+		<item>DIKA CELL</item>
+		<item>DUNIA CELL</item>
+		<item>DWIKA CELL</item>
+		<item>EBIL CELL</item>
+		<item>EVAN CELL</item>
+		<item>FAYI CELL</item>
+		<item>FAZHIRA CELL</item>
+		<item>FERRY CELL</item>
+		<item>FOKA CELL</item>
+		<item>GARD CELL</item>
+		<item>GENERAL CELL</item>
+		<item>GOBEL CELL</item>
+		<item>HAMDAN CELL</item>
+		<item>HENS2 CEL</item>
+		<item>HERY CELL</item>
+		<item>HUSNA CELL</item>
+		<item>IMRON CELL</item>
+		<item>IYAN CELL</item>
+		<item>KARYA MUKTI CELL</item>
+		<item>KURNIA CELL-JALAKSANA</item>
+		<item>KUS CELL</item>
+		<item>MANDIRI CELL</item>
+		<item>MILA CELL</item>
+		<item>NUSA DUA CELL</item>
+		<item>OBLOCK CEL</item>
+		<item>OYAG CELL</item>
+		<item>PAMONG CELL</item>
+		<item>RIJAL CELL</item>
+		<item>RIZQI CELL</item>
+		<item>SABANDA CELL</item>
+		<item>SISCKA CELL</item>
+		<item>STAR CEL</item>
+		<item>TIARA CELL</item>
+		<item>TIEK CELL</item>
+		<item>ULY CELL</item>
+		<item>VERY CELL</item>
+		<item>VINENG CELL</item>
+		<item>X CEL 2</item>
+		<item>YANTI CELL</item>
+		<item>YANZA CELL</item>
+		<item>YOPI CELL</item>
+		<item>ZIELFA CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_kng_nurkholik">
+		<item>2 DEWI CELL</item>
+		<item>ADDA CELL</item>
+		<item>ADENS CELL</item>
+		<item>AJIEB CELL</item>
+		<item>AKBAR CEEL</item>
+		<item>AL-BARRA CELL</item>
+		<item>ANDROID STORE</item>
+		<item>APRIL CELL</item>
+		<item>AS - SALAM CELL</item>
+		<item>AULIA AZHAR CELL</item>
+		<item>AULIA CELL</item>
+		<item>BANON CELL</item>
+		<item>BISMILAH CELL</item>
+		<item>BROW CELL</item>
+		<item>CAHAYA CELL</item>
+		<item>CILENGKRANG CELL</item>
+		<item>CIPINK ONE CELL</item>
+		<item>DEVY CELL</item>
+		<item>DEWA 2 CELL</item>
+		<item>DEWI CELL</item>
+		<item>DIAN CELL 3</item>
+		<item>DIMAS CELL</item>
+		<item>EKSA CELL</item>
+		<item>EWA CELL</item>
+		<item>FAMILY CELL</item>
+		<item>FIKA CELL</item>
+		<item>FIQRY CELL</item>
+		<item>GM CELL</item>
+		<item>GOEN CELL</item>
+		<item>GORAY CELL</item>
+		<item>GRADITA CELL</item>
+		<item>HAFIDZ CELL</item>
+		<item>HIDAYAH CELL</item>
+		<item>IFAN CELL 2</item>
+		<item>IRA CELL</item>
+		<item>KEMBAR CELL</item>
+		<item>KUS</item>
+		<item>LOA CELL</item>
+		<item>MANDA CELL</item>
+		<item>MITRA CELL</item>
+		<item>NINEUNG CELL</item>
+		<item>NOVA CELL 1</item>
+		<item>NOVA CELL 2</item>
+		<item>NUNUNG CELL</item>
+		<item>ODONG CELL</item>
+		<item>ONES CELL</item>
+		<item>PAY CELL</item>
+		<item>RADDIN CELL 1</item>
+		<item>RAHMA CELL</item>
+		<item>RNG CELL</item>
+		<item>SAKINAH CELL</item>
+		<item>SALSABILA CELL</item>
+		<item>SCORPION CELL</item>
+		<item>SHE CELL</item>
+		<item>SINARAN CELL</item>
+		<item>SORAYA CELL</item>
+		<item>TIANK CELL</item>
+		<item>VANESHA CELL</item>
+		<item>VIRA CELL</item>
+		<item>WAHANA CELL</item>
+		<item>WARKOP CELL</item>
+		<item>WILLY CELL</item>
+		<item>WS CELL</item>
+		<item>X CELL</item>
+		<item>X CELL 4</item>
+	</string-array>
+	<string-array name="alfdev__outlet_kng_zanuri">
+		<item>76 CELL</item>
+		<item>AA CELL1</item>
+		<item>ADE CELL</item>
+		<item>AGNIA 1 CELL</item>
+		<item>ALICELL</item>
+		<item>ALL CELL</item>
+		<item>ANUGRAH CELL</item>
+		<item>AR CELL</item>
+		<item>ASEP CELL</item>
+		<item>AWAN CELL</item>
+		<item>BINTANG CELL</item>
+		<item>CAHAYA CELL</item>
+		<item>CINDI CELL</item>
+		<item>DADAKAN CELL</item>
+		<item>DFREND</item>
+		<item>DINA CELL</item>
+		<item>FIKY CELL</item>
+		<item>GOLDENSTAR CELL</item>
+		<item>IMAM CELL</item>
+		<item>INDAH CELL</item>
+		<item>INTAN CELL</item>
+		<item>KEMBAR CELL</item>
+		<item>KHARISMA 1 CELL</item>
+		<item>KURNIA CELL</item>
+		<item>LESTARI CELL</item>
+		<item>LUTFI CELL</item>
+		<item>MADRID CELL</item>
+		<item>MANDIRI</item>
+		<item>MITRA CELL</item>
+		<item>MUTIARA CELL1</item>
+		<item>POJOK CELL</item>
+		<item>PUTRA LENGKONG CELL1</item>
+		<item>RAHMA HTR CELL</item>
+		<item>RED STAR</item>
+		<item>RIKA</item>
+		<item>SALMA CELL</item>
+		<item>TEDI CELL</item>
+		<item>U AND ME CELL</item>
+		<item>UDEL CELL</item>
+		<item>UUM CELL</item>
+		<item>VEETHA CELL</item>
+		<item>VIA CELL</item>
+		<item>VILUWUK CELL</item>
+		<item>WAHYU CELL</item>
+		<item>YOGI CELL</item>
+	</string-array>
+
+	<!--- MJK OUTLET -->
+	<string-array name="alfdev__outlet_mjk_dede_r">
+		<item>AA CELL</item>
+		<item>AINI CELL</item>
+		<item>AJ CEL</item>
+		<item>ANGGI CELL</item>
+		<item>ARI CELL</item>
+		<item>ARMI CELL</item>
+		<item>ATLANTIS</item>
+		<item>BAY TELECOM</item>
+		<item>BERKAH CELL</item>
+		<item>BINTANG CELL</item>
+		<item>DIEN CELL</item>
+		<item>DIVA CELL</item>
+		<item>DJ CELL</item>
+		<item>DR CELL</item>
+		<item>ELI CELL</item>
+		<item>ERLANGGA CELL</item>
+		<item>FAHRI CELL</item>
+		<item>FARID CELL</item>
+		<item>FATHAN CELL</item>
+		<item>GAMMA CELL</item>
+		<item>GANESHA CELL</item>
+		<item>GITA CELL</item>
+		<item>HAURA CELL</item>
+		<item>INTAN CELL</item>
+		<item>KAKA PHONE CELL</item>
+		<item>KHALIFAH CELL</item>
+		<item>KONTAN CELL</item>
+		<item>MANDIRI CELL</item>
+		<item>MITRA CELL 2</item>
+		<item>MUSTIKA CELL</item>
+		<item>MY CELL</item>
+		<item>NAGITA CELL</item>
+		<item>NIZA CELL</item>
+		<item>NSS CELL</item>
+		<item>NUR INTAN</item>
+		<item>OPTIMA CELL</item>
+		<item>ORYZA KOMUNIKA</item>
+		<item>PAKIH</item>
+		<item>PLANET CELL</item>
+		<item>POTLOT CELL</item>
+		<item>PUJA CELL</item>
+		<item>RABILL CELL</item>
+		<item>RAHAYU</item>
+		<item>RD CELL</item>
+		<item>SADIYAH CELL</item>
+		<item>SINAR CELL</item>
+		<item>SINTA CELL</item>
+		<item>SMS CELL</item>
+		<item>ST CELL</item>
+		<item>TEO CELL</item>
+		<item>TIKO CELL</item>
+		<item>TP CELL</item>
+		<item>TRI CELL</item>
+		<item>VEGA CELL</item>
+		<item>YX CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_mjk_enjang_b">
+		<item>ABADI CELL</item>
+		<item>ABI CELL</item>
+		<item>AGIL CELL</item>
+		<item>AGUST CELL 1</item>
+		<item>AMANDA CELL</item>
+		<item>ASPEK CELL</item>
+		<item>BAROKAH CELL</item>
+		<item>BIMA CELL</item>
+		<item>COBEL CELL</item>
+		<item>DAR CELL 1</item>
+		<item>DENS CELL</item>
+		<item>DEVIKA CELL</item>
+		<item>DIMAS CELL</item>
+		<item>DONAL CELL 2</item>
+		<item>DONAL CELL1</item>
+		<item>EK JAYA CELL</item>
+		<item>FAJAR KOMUNIKA</item>
+		<item>FAMILLY KOMUNIKA</item>
+		<item>FAZAR CELL</item>
+		<item>FUZI CELL</item>
+		<item>GG CELL 1</item>
+		<item>GIA CELL</item>
+		<item>HS DUTRA CELL</item>
+		<item>KHARISMA CELL</item>
+		<item>MAEZA CELL</item>
+		<item>MARS CELL</item>
+		<item>MUGIIA CELL 1</item>
+		<item>MULYA CELL</item>
+		<item>MY CELL</item>
+		<item>NAZWA CELL_3</item>
+		<item>NINA CELL</item>
+		<item>ONE CELL</item>
+		<item>PURNAMA CELL 1</item>
+		<item>RADI CELL</item>
+		<item>RADZKA CELL</item>
+		<item>RAFFA CELL</item>
+		<item>RIKO CELL1</item>
+		<item>RIZQUNA CELL</item>
+		<item>ROCK N ROLL CELL</item>
+		<item>ROIDZ CELL</item>
+		<item>ROYUS CELL</item>
+		<item>SAFA`AT CELL</item>
+		<item>SENSASI CELL</item>
+		<item>SLANKER CELL 1</item>
+		<item>TANJUNG CELL</item>
+		<item>VELLIA CEL</item>
+		<item>VIKING CELL  1</item>
+		<item>VINTAGE CELL</item>
+		<item>WINDI CELL</item>
+		<item>ZIEZAN CELL 2</item>
+	</string-array>
+	<string-array name="alfdev__outlet_mjk_jamal_abdul">
+		<item>OLIVE CELL</item>
+		<item>2 TAMBAH 8 CELL</item>
+		<item>ADAM CELL</item>
+		<item>ADAM CELL 2</item>
+		<item>ADAM RS CELL</item>
+		<item>ADVANCE CELL</item>
+		<item>AKMAL CELL</item>
+		<item>AKTIVASI CELL</item>
+		<item>ANFIELD CELL</item>
+		<item>ARCHI CELL</item>
+		<item>BAM CELL</item>
+		<item>BERLIAN CELL</item>
+		<item>BIMA CELL</item>
+		<item>BJ CELL</item>
+		<item>BLUE CELL</item>
+		<item>CF CELL</item>
+		<item>COPPO MAS CELL</item>
+		<item>DAMAR CELL MJK</item>
+		<item>DASRUL CELL</item>
+		<item>DELPIERO CELL</item>
+		<item>DIDIN</item>
+		<item>DIGA CELL</item>
+		<item>DIGAIZ CELL</item>
+		<item>DIRA CELL</item>
+		<item>ERGANA CELL</item>
+		<item>FAJAR CELL</item>
+		<item>FAKHA CELL</item>
+		<item>FARASH CELL</item>
+		<item>FUJI CELL</item>
+		<item>HAIFA CELL</item>
+		<item>HENDRA CELL</item>
+		<item>INTIKOM</item>
+		<item>INTIPHONE</item>
+		<item>INTIPON 2 CELL</item>
+		<item>ISKA CELL</item>
+		<item>JIBRIL CELL</item>
+		<item>JUVE CELL</item>
+		<item>KSBP CELL</item>
+		<item>KURNIA CELL-MAJALENGKA</item>
+		<item>MR CELL1</item>
+		<item>MRS CELL</item>
+		<item>MULTYKOM CELL</item>
+		<item>MURAH CELL</item>
+		<item>NABIL CELL</item>
+		<item>NABILA CELL</item>
+		<item>NADHIF CELL</item>
+		<item>NIA CELL</item>
+		<item>PS CELL</item>
+		<item>REXSA CELL</item>
+		<item>RIJA CELL</item>
+		<item>RIKE CELL</item>
+		<item>SHAUMA CELL</item>
+		<item>SR CELL</item>
+		<item>SS CELL</item>
+		<item>TWINS CELL</item>
+		<item>WAWAN CELL</item>
+		<item>YUSRAN CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_mjk_jemmy_k">
+		<item>ADI CELP</item>
+		<item>ALEXZA CELL</item>
+		<item>ALO CELL</item>
+		<item>AMANDA CELL</item>
+		<item>ARWANA CELL</item>
+		<item>ARYA CELL</item>
+		<item>ASMU CELL</item>
+		<item>AVIRE CELL</item>
+		<item>AYU CELL</item>
+		<item>BJ PUTERA CELL</item>
+		<item>BUNDA CELL</item>
+		<item>CINTHIA CELL</item>
+		<item>CITRA CELL</item>
+		<item>DORRA CELL</item>
+		<item>ERNCE CELL</item>
+		<item>EVI CELL</item>
+		<item>FAHMY CELL</item>
+		<item>FARIF CELL</item>
+		<item>GEA CELL</item>
+		<item>HADAD CELL</item>
+		<item>HARUM CELL</item>
+		<item>I CELL</item>
+		<item>IMA CELL</item>
+		<item>JEMPOL CELL</item>
+		<item>JUANA CELL</item>
+		<item>JUNIOR CELL</item>
+		<item>KAILA CELL</item>
+		<item>KALILLA CELL</item>
+		<item>KING CELL</item>
+		<item>KRISTA CELL</item>
+		<item>LISTA CEL</item>
+		<item>MACO CELL 1</item>
+		<item>MBEE CELL</item>
+		<item>MJ CELL</item>
+		<item>NANS KOM</item>
+		<item>NGARIUNG CELL</item>
+		<item>NOVAL CELL</item>
+		<item>POLARIS</item>
+		<item>POPY CELL</item>
+		<item>RAHAYU CELL</item>
+		<item>RANGGA CELL</item>
+		<item>RIA CELL</item>
+		<item>RISYA CELL</item>
+		<item>SINAR GALUH CELL</item>
+		<item>SLANKY CELL</item>
+		<item>TIA CELL</item>
+		<item>ULFA 2</item>
+		<item>VIO CELL</item>
+		<item>WINS CELL</item>
+		<item>WISNU CELL</item>
+		<item>WISNU CELL</item>
+		<item>YANTI CELL</item>
+		<item>ZAQI CELL</item>
+		<item>ZAQI CELL 2</item>
+	</string-array>
+	<string-array name="alfdev__outlet_mjk_mamat_rahmat">
+		<item>\u0040 CELL</item>
+		<item>ADZAM CELL</item>
+		<item>AI CELL</item>
+		<item>ALFAR CELL</item>
+		<item>ALVIN CELL</item>
+		<item>ANA CELL</item>
+		<item>ANGGA CELL</item>
+		<item>APRI CELL</item>
+		<item>ARFISTA CELL</item>
+		<item>ARIERA CELL</item>
+		<item>ARIO RIAN CELL</item>
+		<item>ARJO CELL</item>
+		<item>AUTO CELL</item>
+		<item>AYU CELL</item>
+		<item>BARAYA</item>
+		<item>BUDI CELL</item>
+		<item>CHIKA CELL</item>
+		<item>CLS CELL</item>
+		<item>DAFAIS CELL</item>
+		<item>DAYS CELL</item>
+		<item>DBS CELL</item>
+		<item>DELIS CELL</item>
+		<item>DS CELL</item>
+		<item>ELVIRA CELL</item>
+		<item>ENAM SATU CELL</item>
+		<item>FAHMI CELL</item>
+		<item>FARHAN CELL</item>
+		<item>FEBRY CELL</item>
+		<item>FITRI CELL</item>
+		<item>GALANG CELL</item>
+		<item>GANDASARI CELL</item>
+		<item>HIDAYAH CELL</item>
+		<item>HILMA CELL</item>
+		<item>IIN CELL</item>
+		<item>IKHSAN CELL</item>
+		<item>INDRI CELL</item>
+		<item>I-ONE CELL</item>
+		<item>IRMA CELL</item>
+		<item>JEJEN CELL</item>
+		<item>JIE 3 CELL</item>
+		<item>JIHAN CELL</item>
+		<item>KAKA CELL</item>
+		<item>MALA CELL</item>
+		<item>MGC CELL</item>
+		<item>MIDA CELL</item>
+		<item>MIZF CELL</item>
+		<item>NATAVAN CELL</item>
+		<item>NENI CELL</item>
+		<item>NOVA NOVI CELL</item>
+		<item>NUANSA KOMUNIKA</item>
+		<item>RAFA CELL</item>
+		<item>RAFI CELL</item>
+		<item>RAHMAH CELL</item>
+		<item>RIAN CELL</item>
+		<item>RN CELL</item>
+		<item>SWAND CELL</item>
+		<item>SYIAM CELL</item>
+		<item>TEA CELL</item>
+		<item>THONKS CELL</item>
+		<item>TWIN CELL</item>
+		<item>VI CELL</item>
+		<item>VIE CELL</item>
+		<item>WAHYUDIN</item>
+		<item>WILDAN /MITRA CELL 2</item>
+		<item>YUDIS CELL</item>
+		<item>YUSUF CELL</item>
+		<item>ZIDAN CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_mjk_nono_w">
+		<item>7 CELL</item>
+		<item>ADELIA</item>
+		<item>ADHAENI CELL</item>
+		<item>ADIMA CELL</item>
+		<item>ADIPATICELL</item>
+		<item>ADIS CELL</item>
+		<item>AKBAR CELL 2</item>
+		<item>AKHBAR CELLINDO</item>
+		<item>AL FALAH CELL</item>
+		<item>AL VIRA CELL</item>
+		<item>AL-GHINA CELL</item>
+		<item>ANABEL CELL</item>
+		<item>ANEU</item>
+		<item>ANINDA CELL</item>
+		<item>AUDI CELL</item>
+		<item>AURA CELL</item>
+		<item>AWAN CELL</item>
+		<item>BAHRI CELL</item>
+		<item>BMC RAJAGALUH</item>
+		<item>BRAM CELL</item>
+		<item>CAHAYA CELL</item>
+		<item>COM CELL</item>
+		<item>DAFFA CELL</item>
+		<item>DEDE CELL</item>
+		<item>DEFI CELL</item>
+		<item>DEGICELL</item>
+		<item>DEVAN</item>
+		<item>EDY CELL</item>
+		<item>ELMUSRI CELL</item>
+		<item>FAAL CELL</item>
+		<item>FADILAH CELL</item>
+		<item>FIKRI CELL</item>
+		<item>G2N CELL</item>
+		<item>HR CELL</item>
+		<item>INDRIANI CELL</item>
+		<item>INTAN CELL</item>
+		<item>INTAN GALON</item>
+		<item>JEMBAR CELL</item>
+		<item>JINGGACELL</item>
+		<item>KARINA CELL</item>
+		<item>LALA CELL</item>
+		<item>LIA CELL</item>
+		<item>NURMA CELL</item>
+		<item>OBI CELL</item>
+		<item>PLANET CELL</item>
+		<item>RCM CELL</item>
+		<item>R-COMP</item>
+		<item>RHEGA CELL</item>
+		<item>S.E CELL</item>
+		<item>SALAFY CELL</item>
+		<item>SARANA CELL</item>
+		<item>SINGGASANACELL</item>
+		<item>TITO CELL</item>
+		<item>YUDI CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_mjk_oka_a">
+		<item>ACE CELL</item>
+		<item>ADAMS CEL</item>
+		<item>AGUSCEL</item>
+		<item>AIR CELL</item>
+		<item>AJICELL</item>
+		<item>ALDI CEL</item>
+		<item>ALFACELL</item>
+		<item>ALFIRA CEL</item>
+		<item>ALVIN CELL</item>
+		<item>AMALIA CELL</item>
+		<item>APRIL CEL</item>
+		<item>ARFA CELL</item>
+		<item>ARMI CELL</item>
+		<item>AZ CELL</item>
+		<item>BAGUS CEL</item>
+		<item>BISMA CEL</item>
+		<item>CHASS CELL</item>
+		<item>CICENANG CELL</item>
+		<item>DJAVA CELL</item>
+		<item>ELHAMKACELL</item>
+		<item>GAHARA CELL</item>
+		<item>GALUH CELL</item>
+		<item>GAT CELL</item>
+		<item>HAPPY CELL</item>
+		<item>HARIS CELL</item>
+		<item>HENDYCELL</item>
+		<item>IKA CELL</item>
+		<item>IMAH PULSA CELL</item>
+		<item>IYAN CELL</item>
+		<item>KEVIN CELL</item>
+		<item>KHAIZAN CEL</item>
+		<item>KHOLID CELL</item>
+		<item>KUTAMINDO CELL</item>
+		<item>LESTARI CEL</item>
+		<item>LISYA CELL</item>
+		<item>LOVE CEL</item>
+		<item>MANCELL</item>
+		<item>MAS CELL</item>
+		<item>NABIL CELL</item>
+		<item>NAILA CELL</item>
+		<item>NEO GENETIKA</item>
+		<item>NIRWANA CELL</item>
+		<item>NOE CELL</item>
+		<item>NURCELL</item>
+		<item>PANJALU CEL</item>
+		<item>PUSPA CELL</item>
+		<item>QIPAS CEL</item>
+		<item>RAIHAN CEL</item>
+		<item>RANSEL CELL</item>
+		<item>REGAN CELL</item>
+		<item>ROMY CELL</item>
+		<item>SILVIE CELL</item>
+		<item>SINAR CEL</item>
+		<item>WANCELL</item>
+		<item>YACOMINDOCELL</item>
+		<item>YOGA CELL</item>
+		<item>ZAKKI KOMUNIKA</item>
+		<item>ZERO CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_mjk_wawan_hermawan">
+		<item>AAN CELL</item>
+		<item>ADIRAMA CELLULAR</item>
+		<item>AGHA KOMUNIKA</item>
+		<item>AGRANIK CELL</item>
+		<item>AL-BAROKAH CELL</item>
+		<item>ALEA CELL</item>
+		<item>ANDI CELL</item>
+		<item>ANEKA CELL</item>
+		<item>ANISA CELL</item>
+		<item>AZISCELL</item>
+		<item>BANDI CELL</item>
+		<item>BAROKAH CELL</item>
+		<item>BENTO CELL</item>
+		<item>BER CELL</item>
+		<item>BESTINDOCELL</item>
+		<item>BUD CELL</item>
+		<item>CITRA CELL</item>
+		<item>DEDEN CELL</item>
+		<item>DELFI CELL</item>
+		<item>DIAH CELL</item>
+		<item>DILLA CELL</item>
+		<item>DIVA CELL 2</item>
+		<item>DJ CELL</item>
+		<item>DONA CELL</item>
+		<item>EMON CELL</item>
+		<item>ERMA CELL</item>
+		<item>F A H M Y  CELL</item>
+		<item>FAJAR CELL</item>
+		<item>FATIH CELL</item>
+		<item>GALIH CELL</item>
+		<item>GANESHA CELL 1</item>
+		<item>GENKS CELL</item>
+		<item>HAFID CELL</item>
+		<item>HALIMATCELL</item>
+		<item>HOKI CELL</item>
+		<item>HOLYZAN CELL</item>
+		<item>ICAY CELL</item>
+		<item>JANA CELL</item>
+		<item>KIKI CELL</item>
+		<item>LIPHA CELL</item>
+		<item>M CELL</item>
+		<item>M2M CELL</item>
+		<item>MANDIRI CELL</item>
+		<item>MU CELL</item>
+		<item>NAJIBCELL</item>
+		<item>NM CELL</item>
+		<item>NTA CELL</item>
+		<item>NUNU CELL</item>
+		<item>NUNU CELL 2</item>
+		<item>ONAH CELL</item>
+		<item>PELANGI CELL</item>
+		<item>RADJA CELL</item>
+		<item>RAMDZY CELL</item>
+		<item>RIFA CELL</item>
+		<item>RISMA CELL</item>
+		<item>SARI CELL</item>
+		<item>SERI CELL</item>
+		<item>SHILMA</item>
+		<item>SHINTA CELL</item>
+		<item>STRAWBERY CELL</item>
+		<item>TIA CELL</item>
+		<item>VAGANZA CELL</item>
+		<item>VHAZAGUNS CELL</item>
+		<item>VIRDA CELL</item>
+		<item>WELKOM CELL</item>
+		<item>ZAHRA  CELL</item>
+		<item>ZUREK CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_mjk_yayan_h">
+		<item>ACIEK MULTI PULSA</item>
+		<item>ALBADAR CELL</item>
+		<item>ALEA CELL</item>
+		<item>ALMA CELL</item>
+		<item>ARUL CELL</item>
+		<item>B CELL</item>
+		<item>BEBO CELL</item>
+		<item>BEST CELL</item>
+		<item>BRO CELL</item>
+		<item>CIWONG CELL</item>
+		<item>DELARD CELLULAR</item>
+		<item>DHE CELL</item>
+		<item>DITA CELL</item>
+		<item>DWI CELL</item>
+		<item>ENERGY CELL</item>
+		<item>FAJAR CELL</item>
+		<item>FEDERATION CELL</item>
+		<item>FIA CELL 1</item>
+		<item>FIA CELL 2</item>
+		<item>FUJI CELL</item>
+		<item>G CELL</item>
+		<item>GINNA CELL</item>
+		<item>GLOBAL CELL</item>
+		<item>IAN CELL</item>
+		<item>IAN CELL 2</item>
+		<item>INDAH CELL</item>
+		<item>IQ CELL</item>
+		<item>KIDAL CELL</item>
+		<item>KIKI CELL</item>
+		<item>KIKY CELL</item>
+		<item>KOZA CELL</item>
+		<item>KSBP CELL</item>
+		<item>LUCKY AULIA CELL</item>
+		<item>MAESTRO CELL</item>
+		<item>MC CELL</item>
+		<item>M-CELL</item>
+		<item>MUSTIKA CELL</item>
+		<item>NAOMI CELL</item>
+		<item>NP CELL</item>
+		<item>OBI SAKA CELL</item>
+		<item>R COM CELL</item>
+		<item>RAHMA CELL</item>
+		<item>R-CELL</item>
+		<item>SAKURA CELL</item>
+		<item>SALUT 2</item>
+		<item>SALUT CELL</item>
+		<item>TIA CELL</item>
+		<item>UDHAY CELL</item>
+		<item>VHIE CELL</item>
+		<item>WAHYU CELL</item>
+		<item>YESSI CELL</item>
+	</string-array>
+	<string-array name="alfdev__outlet_mjk_yudi_h">
+		<item>ADE CELL</item>
+		<item>ADI COM CELL</item>
+		<item>ALIFFA CELL</item>
+		<item>ALYA CELL</item>
+		<item>ANITA PHONSEL</item>
+		<item>AYUD CELL</item>
+		<item>BIOTRIK CELL</item>
+		<item>BMJ CELL</item>
+		<item>BRO CELL</item>
+		<item>BUD CELL</item>
+		<item>CATLEYA CELL</item>
+		<item>CENTRAL CELL</item>
+		<item>COKY CELL</item>
+		<item>DADO CELL</item>
+		<item>DISCA CELL</item>
+		<item>E JULL CELL</item>
+		<item>EGI CELL</item>
+		<item>EGI CELL</item>
+		<item>EZA COM CELL</item>
+		<item>FAREL CELL</item>
+		<item>FH CELL</item>
+		<item>GEMILANG CELL MJK</item>
+		<item>GHOLIN CELL</item>
+		<item>GP COMUNICA</item>
+		<item>HANY CELL</item>
+		<item>HELLNONE CELL</item>
+		<item>HERO COM</item>
+		<item>ICAN CELL</item>
+		<item>ICHA CELL</item>
+		<item>KHOLIL CELL</item>
+		<item>MANDIRI CELL</item>
+		<item>ME CELL</item>
+		<item>MITRA PONSEL</item>
+		<item>MULIA INDAH CELL</item>
+		<item>NINING CELL</item>
+		<item>OLIVIA CELL</item>
+		<item>PALASINDO CELL</item>
+		<item>PRATAMA</item>
+		<item>PRITA CELL</item>
+		<item>PURNAMA 1 CELL</item>
+		<item>PURNAMA CELL 2</item>
+		<item>REZA CELL</item>
+		<item>RHEZA KOMUNIKA</item>
+		<item>RICKY CELL</item>
+		<item>RIHLAH CELL</item>
+		<item>RIKI</item>
+		<item>RIYATSA CELL</item>
+		<item>RIZKY CELL</item>
+		<item>SONETA CELL</item>
+		<item>TB CELL</item>
+		<item>TIA CELL</item>
+		<item>TITTOE CELL</item>
+		<item>TRIJAYA CELL</item>
+		<item>VIBRA CELL</item>
+		<item>ZAHRA CELL</item>
+		<item>ZAHRA PHONSEL</item>
+		<item>ZIE CELL</item>
+	</string-array>
+	
 </resources>
